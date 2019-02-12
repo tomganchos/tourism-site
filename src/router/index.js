@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import LeftMenu from '@/components/menu/LeftMenu'
 import RightMenu from '@/components/menu/RightMenu'
 import CommonInformationPage from "@/components/CommonInformationPage";
+import EducationPage from "@/components/EducationPage";
 
 Vue.use(Router);
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/common-information',
       name: 'CommonInformationPage',
       component: CommonInformationPage
+    },
+    {
+      path: '/education',
+      name: 'EducationPage',
+      component: EducationPage
     },
   ]
 })
