@@ -1,10 +1,28 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import NewsPage from '@/components/NewsPage'
 import LeftMenu from '@/components/menu/LeftMenu'
 import RightMenu from '@/components/menu/RightMenu'
 import CommonInformationPage from "@/components/CommonInformationPage";
+import StructurePage from "@/components/StructurePage";
+import DocumentsPage from "@/components/DocumentsPage";
 import EducationPage from "@/components/EducationPage";
+import EducationalStandardsPage from "@/components/EducationalStandardsPage";
+import PersonalPage from "@/components/PersonalPage";
+import VacanciesPage from "@/components/VacanciesPage";
+import TouristRoutesPage from "@/components/TouristRoutesPage";
+import MuseumAboutEducationPage from "@/components/MuseumAboutEducationPage";
+import HostelPage from "@/components/HostelPage";
+import PlansPage from "@/components/PlansPage";
+import ResultsPage from "@/components/ResultsPage";
+import PublicationPage from "@/components/PublicationPage";
+import GalleryPage from "@/components/GalleryPage";
+import MethLibraryPage from "@/components/MethLibraryPage";
+import AntiCorruptionPage from "@/components/AntiCorruptionPage";
+import ContactsPage from "@/components/ContactsPage";
+import StipendsPage from "@/components/StipendsPage";
+import MaterialTechProvisionPage from "@/components/MaterialTechProvisionPage";
+import PaidEducationServicesPage from "@/components/PaidEducationServicesPage";
 
 Vue.use(Router);
 
@@ -13,8 +31,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'NewsPage',
+      component: NewsPage
     },
     {
       path: '/left',
@@ -32,9 +50,99 @@ export default new Router({
       component: CommonInformationPage
     },
     {
+      path: '/structure',
+      name: 'StructurePage',
+      component: StructurePage
+    },
+    {
+      path: '/documents',
+      name: 'DocumentsPage',
+      component: DocumentsPage
+    },
+    {
       path: '/education',
       name: 'EducationPage',
       component: EducationPage
+    },
+    {
+      path: '/educational-standards',
+      name: 'EducationalStandardsPage',
+      component: EducationalStandardsPage
+    },
+    {
+      path: '/personal',
+      name: 'PersonalPage',
+      component: PersonalPage
+    },
+    {
+      path: '/material-tech-provision',
+      name: 'MaterialTechProvisionPage',
+      component: MaterialTechProvisionPage
+    },
+    {
+      path: '/stipends',
+      name: 'StipendsPage',
+      component: StipendsPage
+    },
+    {
+      path: '/vacancies',
+      name: 'VacanciesPage',
+      component: VacanciesPage
+    },
+    {
+      path: '/paid-education-services',
+      name: 'PaidEducationServicesPage',
+      component: PaidEducationServicesPage
+    },
+    {
+      path: '/tourist-routes',
+      name: 'TouristRoutesPage',
+      component: TouristRoutesPage
+    },
+    {
+      path: '/museum-about-education',
+      name: 'MuseumAboutEducationPage',
+      component: MuseumAboutEducationPage
+    },
+    {
+      path: '/hostel',
+      name: 'HostelPage',
+      component: HostelPage
+    },
+    {
+      path: '/plans',
+      name: 'PlansPage',
+      component: PlansPage
+    },
+    {
+      path: '/results',
+      name: 'ResultsPage',
+      component: ResultsPage
+    },
+    {
+      path: '/publications',
+      name: 'PublicationPage',
+      component: PublicationPage
+    },
+    {
+      path: '/gallery',
+      name: 'GalleryPage',
+      component: GalleryPage
+    },
+    {
+      path: '/meth-library',
+      name: 'MethLibraryPage',
+      component: MethLibraryPage
+    },
+    {
+      path: '/anti-corruption',
+      name: 'AntiCorruptionPage',
+      component: AntiCorruptionPage
+    },
+    {
+      path: '/contacts',
+      name: 'ContactsPage',
+      component: ContactsPage
     },
   ]
 })

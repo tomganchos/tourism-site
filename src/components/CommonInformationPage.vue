@@ -148,26 +148,10 @@
     }
   }
 </script>
-
 <style scoped>
-  .ui.segment.head {
-    margin-bottom: 5px;
-  }
-  .ui.segment .header {
-    color: #204d74;
-  }
-  .ui.segment.body {
-    margin-top: 0;
-  }
-  .ui.secondary.menu {
-    margin-bottom: 5px;
-  }
-  .ui.tab.segment {
-    margin-top: 5px;
-  }
-  div.text-block {
-    margin-bottom: 15px;
-  }
+  @import "./../assets/css/common.css";
+
+
   h3 {
     margin-bottom: 10px;
   }

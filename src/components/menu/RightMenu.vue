@@ -1,9 +1,8 @@
 <template>
     <div class="ui right vertical menu">
 
-      <div class="ui vertical rectangle test ad" data-text="Vertical Rectangle" style="margin: auto;">
-
-      </div>
+<!--      <div class="ui vertical rectangle test ad" data-text="Vertical Rectangle" style="margin: auto;">-->
+<!--      </div>-->
 
       <a class="item first" href="https://минобрнауки.рф" target="_blank" rel="noopener">
         <div class="link-img">
@@ -66,7 +65,7 @@
 <style scoped>
   .vertical.menu {
     width: 275px;
-    background-color: #286090;
+    background-color: #286090 !important;
   }
   .vertical.menu a.item {
     background-color: #337ab7;

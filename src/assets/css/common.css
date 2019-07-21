@@ -1,0 +1,76 @@
+.ui.segment.head {
+  margin-bottom: 5px;
+}
+.ui.segment .header {
+  color: #204d74;
+}
+.ui.segment.body {
+  margin-top: 0;
+}
+div.text-block {
+  margin-bottom: 15px;
+}
+h3 {
+  margin-bottom: 10px;
+}
+.title {
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-weight: bold;
+}
+h1 {
+  color: #204d74 !important;
+  margin: 0;
+}
+h2 {
+  font-size: 1rem;
+  color: #204d74 !important;
+  margin: 0;
+}
+h3 {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+  display: inline;
+}
+.ui.secondary.menu {
+  margin-bottom: 5px;
+}
+.ui.tab.segment {
+  margin-top: 5px;
+}
+/*List*/
+.ui.segment.body .item a {
+  line-height: 1.3;
+}
+.ui.segment.body .item {
+  display: flex;
+}
+.item-icon {
+  display: flex;
+  align-items: center;
+}
+.item-icon i {
+  margin-right: 10px;
+}
+.item .content {
+  display: flex;
+}
+.ui.list {
+  margin: 10px 0;
+}
+.carousel__list {
+  border-radius: 5px;
+}
+.card .content .meta {
+  margin-top: 5px;
+}
+.card {
+  margin: 5px 0 !important;
+}
+.card .extra.content {
+  padding: 0 1em;
+}
+.ui.card .header {
+  color: #204d74;
+}

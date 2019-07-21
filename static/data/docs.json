@@ -1,0 +1,188 @@
+[
+	{
+		"name": "Устав",
+		"link": "https://drive.google.com/file/d/0B4Y-eduzf4rjTzVHQWRyVk9FX1U/view",
+		"page": "documents",
+		"category": "common"
+	}, {
+		"name": "Лицензия",
+		"link": "https://drive.google.com/file/d/0B4Y-eduzf4rjWnI3VlZiTVVwakU/view",
+		"page": "documents",
+		"category": "common"
+	}, {
+		"name": "Распоряжение №145 от 26.04.1956г. об открытии",
+		"link": "https://drive.google.com/file/d/1xOayLIC_Sn1Z6__h02Vtj5ezZVf1HV2p/view",
+		"page": "documents",
+		"category": "common"
+	}, {
+		"name": "План ФХД на 2017",
+		"link": "https://drive.google.com/open?id=1FdQ49eXJ60-Gk-aThpDaJM4EyPhokZF4",
+		"page": "documents",
+		"category": "finance"
+	}, {
+		"name": "Расч.обоснование ПФХД за 2017",
+		"link": "https://drive.google.com/open?id=1fDyjjOFUwVXzw1CvIls-2VwRMqAEXG5k",
+		"page": "documents",
+		"category": "finance"
+	}, {
+		"name": "План ФХД на 2018",
+		"link": "https://drive.google.com/open?id=1IBTh8uO20u05KD-d2BNzCqEvT1Vkr90E",
+		"page": "documents",
+		"category": "finance"
+	}, {
+		"name": "Отчёт о результатах самообследования за 2017",
+		"link": "https://drive.google.com/open?id=1XI2ksBoO8Bx0r1Tmnj_a4Wj9IYbsHMPz",
+		"page": "documents",
+		"category": "self"
+	}, {
+		"name": "Справка в отсутствии оказания платных услуг 2018",
+		"link": "https://drive.google.com/open?id=11k88BT8QdbHOsUARy9QCJjKSJbIWauD_",
+		"page": "documents",
+		"category": "paid"
+	}, {
+		"name": "Справка в отсутствии оказания платных услуг 2019",
+		"link": "https://drive.google.com/open?id=1YvtKwknY_nUnPGwesfcsHQqnxhrZhN4B",
+		"page": "documents",
+		"category": "paid"
+	}, {
+		"name": "Предписания органов, осуществляющих государственный контроль в сфере образования,отчёты об исполнении таких предписаний",
+		"link": "https://drive.google.com/open?id=1AvKdW6wQg2PJbWVMhUkyc5HHsA6LIcby",
+		"page": "documents",
+		"category": "control"
+	}, {
+		"name": "test",
+		"link": "https://drive.google.com/open?id=1YvtKwknY_nUnPGwesfcsHQqnxhrZhN4B",
+		"page": "documents",
+		"category": "government"
+	}, {
+		"name": "Паспорт дорожной безопасности",
+		"link": "https://drive.google.com/file/d/0B4Y-eduzf4rjQnNWbFZrc0w0UW8/view",
+		"page": "documents",
+		"category": "passport"
+	}, {
+		"name": "Паспорт безопасности",
+		"link": "https://drive.google.com/file/d/0B4Y-eduzf4rjb2RhMVc5X3BuTWs/view",
+		"page": "documents",
+		"category": "passport"
+	}, {
+		"name": "Правила внутреннего распорядка",
+		"link": "https://drive.google.com/file/d/1x5pzpNhadWtw6cKItFgDSMQX_Qj7PQu1/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о промежуточной аттестации",
+		"link": "https://drive.google.com/open?id=1pb6vjl81naYZAhJE5jOAFrry5TYixDvf",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Кодекс профессиональной этики педагогических работников",
+		"link": "https://drive.google.com/file/d/0B4Y-eduzf4rjdWZjbDNfTnUyQTA/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "О создании комиссии по урегулированию споров",
+		"link": "https://drive.google.com/file/d/0B4Y-eduzf4rjZVhNWVd4T1ZselE/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о порядке обучения по индивидуальному плану",
+		"link": "https://drive.google.com/file/d/1zuJDnaKkWinoogUCC4XILM0elr2tobMR/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о языке",
+		"link": "https://drive.google.com/file/d/1cFq6iIpiDXUep2R62FvvRiJ34AhUt9Ki/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение об организации и режиме занятий обучающихся",
+		"link": "https://drive.google.com/file/d/1q5nWJnGTCmUWJdsn24yVkkWCHykhBqSs/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Порядок оформления возникновения изменения и прекращений образовательных отношений",
+		"link": "https://drive.google.com/file/d/18snokN4okH5CV9Q9YJH01UyCrhUwqRDt/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Правила внутреннего распорядка обучающихся",
+		"link": "https://drive.google.com/file/d/1R1wfLID4X2l-g9JCPR-WzcNH0KE8I6tZ/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о совете родителей",
+		"link": "https://drive.google.com/file/d/15T29JwoZTv59wZEfUPkcZU5EnZ-aiKxC/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о совете учащихся",
+		"link": "https://drive.google.com/file/d/11Kf05SZBcM6fNn1cb4tlep0inNYk2iio/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Правила приема, перевода и отчисления",
+		"link": "https://drive.google.com/file/d/1QehurUU9ADAiZBOErBPEfqHU1v6KUV2w/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о порядке проведения аттестации педагогических работников",
+		"link": "https://drive.google.com/file/d/13_a4QYIr_W-nXO0skiFYjxZcgyr-h6mE/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Порядок расследования и учета несчастных случаев с обучающимися",
+		"link": "https://drive.google.com/file/d/1pdWGdkrMaJJqhsfpjMiOCp5HBw3jjz7w/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Приказ о программе Развитие",
+		"link": "https://drive.google.com/file/d/10PmxtzR9Z-Wn4U3ULRq_wF1ODuhzztzw/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Программа развития Центра",
+		"link": "https://drive.google.com/file/d/1rkaByx1qzemW7UBywU6MN167Q8BQRHJG/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Приказ о сайте",
+		"link": "https://drive.google.com/file/d/0B4Y-eduzf4rjWGFhMnhiX2dqalE/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о сайте",
+		"link": "https://drive.google.com/file/d/167skoo6vVx-8YWKU-Bidxkk6RMOmEa5a/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение об общежитии",
+		"link": "https://drive.google.com/file/d/1lAAi8TAiBeVJGy8z7xDG2flLThadHtnS/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Приказ о стоимости в общежитии",
+		"link": "https://drive.google.com/file/d/0B4Y-eduzf4rjcEFOc19ZNFNxcW8/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о музее истории народного образования",
+		"link": "https://drive.google.com/file/d/1ENp5GVXdJvpJ3muJh7Y8HZ3GpfHaRzVI/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о совете коллектива",
+		"link": "https://drive.google.com/file/d/1rV2OJ-fpUw0KMoP7OnT1YhYIa9iBcfGq/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о методическом (педагогическом совете)",
+		"link": "https://drive.google.com/file/d/1kHgd1VpnRpxjaK40WyRMuigw7EELdkQK/view",
+		"page": "documents",
+		"category": "act"
+	}, {
+		"name": "Положение о методическом (педагогическом совете)",
+		"link": "https://drive.google.com/file/d/1kHgd1VpnRpxjaK40WyRMuigw7EELdkQK/view",
+		"page": "documents1231",
+		"category": "act"
+	}
+]
