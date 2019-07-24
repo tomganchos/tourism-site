@@ -1,4 +1,5 @@
 .ui.segment.head {
+  margin-top: 0;
   margin-bottom: 5px;
 }
 .ui.segment .header {
@@ -73,4 +74,13 @@ h3 {
 }
 .ui.card .header {
   color: #204d74;
+}
+.ui.segment {
+  margin: 5px 0;
+}
+.ui.floated.image {
+  border-radius: 5px;
+}
+.viewer img {
+  border-radius: 15px;
 }

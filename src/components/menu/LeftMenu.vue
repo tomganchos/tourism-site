@@ -80,7 +80,7 @@
 <!--        </div>-->
 <!--      </div>-->
 
-      <router-link to="/tripactivity" class="item">
+      <router-link to="/trips" class="item">
         <span>Экскурсионная деятельность</span>
       </router-link>
       <router-link to="/innovation" class="item">

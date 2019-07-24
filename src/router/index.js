@@ -12,6 +12,8 @@ import PersonalPage from "@/components/PersonalPage";
 import VacanciesPage from "@/components/VacanciesPage";
 import TouristRoutesPage from "@/components/TouristRoutesPage";
 import MuseumAboutEducationPage from "@/components/MuseumAboutEducationPage";
+import TripsPage from "@/components/TripsPage";
+import TripPage from "@/components/TripPage";
 import HostelPage from "@/components/HostelPage";
 import PlansPage from "@/components/PlansPage";
 import ResultsPage from "@/components/ResultsPage";
@@ -104,6 +106,22 @@ export default new Router({
       name: 'MuseumAboutEducationPage',
       component: MuseumAboutEducationPage
     },
+    {
+      path: '/trips',
+      name: 'TripsPage',
+      component: TripsPage,
+      children: [
+        {
+          path: ':id',
+          component: TripPage
+        }
+      ]
+    },
+    // {
+    //   path: '/trips/:id',
+    //   name: 'TripPage',
+    //   component: TripPage
+    // },
     {
       path: '/hostel',
       name: 'HostelPage',
