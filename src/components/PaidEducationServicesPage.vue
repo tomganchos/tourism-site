@@ -30,6 +30,11 @@
         header: 'Платные образовательные услуги',
       }
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    }
   }
 </script>
 

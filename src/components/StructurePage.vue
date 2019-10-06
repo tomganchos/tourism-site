@@ -76,6 +76,11 @@
           header: 'Структура и органы управления образовательной организацией',
         }
       },
+      beforeMount() {
+        this.$emit('label', {
+          label: this.header
+        })
+      }
     }
 </script>
 

@@ -173,6 +173,11 @@
         header: 'Руководство. Педагогический (научно-педагогический) состав',
       }
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    },
     mounted() {
       $('.menu .item')
         .tab()

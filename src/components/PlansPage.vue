@@ -611,6 +611,11 @@
         header: 'Планы работы Центра',
       }
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    },
     mounted() {
       $('.menu .item')
         .tab()

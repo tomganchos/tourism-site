@@ -4,7 +4,7 @@
       <h1 class="ui medium header">{{header}}</h1>
     </div>
     <div v-if="!$route.params.id">
-      <router-link v-for="trip in trips" :to="trip.route">
+      <router-link v-for="trip in trips" :to="trip.route" :key="trip.route">
         <div class="ui segment link" >
           <img class="ui small left floated image image--cover" alt="photo"  :src="trip.photo">
           <div class="personal-name title">{{trip.name}}</div>
@@ -62,6 +62,11 @@
               }
           ]
       }
+    },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
     }
   }
 </script>

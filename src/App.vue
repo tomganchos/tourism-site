@@ -5,7 +5,7 @@
         <div class="mobile-menu">
           <left-menu></left-menu>
         </div>
-        <div class="mobile-background">
+        <div class="mobile-background" @click="toggleMenuFromBackground()">
         </div>
       </div>
 
@@ -22,10 +22,13 @@
         <a class="header item" @click="toggleMenu()" style="display: inline-block">
           <i class="bars icon"></i>
         </a>
+        <div class="mobile-header">
+          <h1 class="ui medium header">{{header}}</h1>
+        </div>
       </div>
 
       <div class="center-menu">
-        <router-view></router-view>
+        <router-view @label="setHeader"></router-view>
       </div>
       <div class="visible-md visible-lg visible-xl block-menu">
         <right-menu></right-menu>
@@ -47,6 +50,11 @@ export default {
       .accordion()
     ;
   },
+  data () {
+    return {
+      header: ''
+    }
+  },
   methods: {
     toggleMenu: function () {
       if (document.querySelector('.mobile-version .mobile-menu').classList.contains('open')) {
@@ -56,6 +64,15 @@ export default {
         document.querySelector('.mobile-version .mobile-menu').classList.add('open');
         document.querySelector('.mobile-version .mobile-background').classList.add('open');
       }
+    },
+    toggleMenuFromBackground: function () {
+      if (document.querySelector('.mobile-version .mobile-menu').classList.contains('open')) {
+        document.querySelector('.mobile-version .mobile-menu').classList.remove('open');
+        document.querySelector('.mobile-version .mobile-background').classList.remove('open');
+      }
+    },
+    setHeader: function (data) {
+      this.header = data.label
     }
   }
 }
@@ -84,7 +101,7 @@ export default {
     position: fixed;
     margin-left: -5px !important;
     margin-right: -5px !important;
-    margin-top: 1px !important;
+    margin-top: 0 !important;
     border-radius: 0 0 .28571429rem .28571429rem;
     z-index: 10;
   }
@@ -110,9 +127,9 @@ export default {
     z-index: 10;
     top: 42px;
     left: -275px;
-    height: 100%;
+    /*height: calc(100% - 42px);*/
     background-color: #286090 !important;
-    transition: left 0.5s ease-in-out;
+    transition: left 0.2s ease-in-out;
   }
 
   .mobile-version .mobile-menu.open {
@@ -123,16 +140,34 @@ export default {
     border: none;
   }
   .mobile-version .mobile-background {
-    /*position: fixed;*/
+    position: absolute;
+    height: calc(100% + 260px);
     z-index: 9;
     top: 0;
-    bottom: -42px;
+    bottom: 0;
     left: 0;
     right: 0;
     transition: background-color 0.5s ease-in-out;
   }
   .mobile-version .mobile-background.open {
     background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+
+  @media (max-width: 767px) {
+    .visible-xs {
+      display: flex !important;
+    }
+  }
+  .mobile-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-header h1 {
+    color: #204d74 !important;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
 </style>

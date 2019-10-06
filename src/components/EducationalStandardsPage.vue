@@ -18,6 +18,11 @@
         header: 'Образовательные стандарты',
       }
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    }
   }
 </script>
 

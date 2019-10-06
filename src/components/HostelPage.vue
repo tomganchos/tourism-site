@@ -85,6 +85,11 @@
         options: { "inline": false, "button": true, "navbar": true, "title": false, "toolbar": false, "tooltip": false, "movable": false, "zoomable": false, "rotatable": false, "scalable": false, "transition": true, "fullscreen": false, "keyboard": true, "url": "data-source" }
       }
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    },
     methods: {
       inited (viewer) {
         this.$viewer = viewer

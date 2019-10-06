@@ -30,6 +30,11 @@
         header: 'Материально-техническое обеспечение и оснащенность образовательного процесса',
       }
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    }
   }
 </script>
 

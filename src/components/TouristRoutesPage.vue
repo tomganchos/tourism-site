@@ -38,6 +38,11 @@
           header: 'Туристические маршруты',
         }
       },
+      beforeMount() {
+        this.$emit('label', {
+          label: this.header
+        })
+      }
     }
 </script>
 

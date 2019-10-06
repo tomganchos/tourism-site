@@ -21,6 +21,11 @@
     created() {
       this.setYears();
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    },
     methods: {
       setYears() {
         let thisYear = new Date();

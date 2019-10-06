@@ -37,6 +37,11 @@
     computed: {
       ...mapGetters(['getView'])
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    },
     mounted() {
       this.specialVision = this.getView;
       console.log(this.specialVision);

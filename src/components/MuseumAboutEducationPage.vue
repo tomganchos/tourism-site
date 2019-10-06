@@ -30,6 +30,11 @@
         header: 'Методическая библиотека',
       }
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    }
   }
 </script>
 

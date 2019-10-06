@@ -54,6 +54,11 @@
         header: 'Стипендии и иные виды материальной поддержки',
       }
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    },
   }
 </script>
 

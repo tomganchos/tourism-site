@@ -150,7 +150,11 @@
       },
       ...mapActions({
         setView: 'setView'
-      })
+      }),
+      routeTo: function(self) {
+        console.log('self');
+        console.log(self);
+      }
     },
     // updated() {
     //   this.specialVision = this.getView;

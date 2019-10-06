@@ -24,6 +24,11 @@
         header: 'Галерея',
       }
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    }
   }
 </script>
 

@@ -107,6 +107,11 @@
         ]
       }
     },
+    beforeMount() {
+      this.$emit('label', {
+        label: this.header
+      })
+    },
     mounted() {
       this.docs.reverse();
 
