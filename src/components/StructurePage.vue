@@ -8,10 +8,10 @@
         <h2>Государственное бюджетное образовательное учреждение дополнительного образования Псковской области «Центр детского и юношеского туризма и экскурсий»</h2>
       </div>
       <div class="text-block">
-        <h3>Почтовый адрес: </h3><span>ул.Народная 53, г.Псков, 180016</span>
+        <h3>Почтовый адрес: </h3><span>ул.Народная 53Б, г.Псков, 180016</span>
       </div>
       <div class="text-block">
-        <h3>Фактический адрес: </h3><span>ул.Некрасова 53, г.Псков, 180016</span>
+        <h3>Фактический адрес: </h3><span>ул.Народная 53Б, г.Псков, 180016</span>
       </div>
       <div class="text-block">
         <h3>Телефон для справок: </h3><a href="tel:88112576084" data-rel="external">8 (8112) 57-60-84</a>, <a href="tel:88112576253" data-rel="external">8 (8112) 57-62-53</a>
@@ -50,7 +50,7 @@
               <i class="file alternate outline icon"></i>
             </div>
             <div class="content">
-              <a class="header" href="https://drive.google.com/open?id=1NX7enSjrZ2WSteSV4sTgjUs4VRmwOIHa" target="_blank" rel="noopener">Положение о совете коллектива</a>
+              <a class="header" href="https://drive.google.com/file/d/1EbZsl4R5FCTuO_n2G1RDfL8vgRX16dxF/view" target="_blank" rel="noopener">Положение о совете учреждения</a>
             </div>
           </div>
           <div class="item">

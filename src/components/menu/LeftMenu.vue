@@ -1,6 +1,10 @@
 <template>
-    <nav class="ui left vertical menu" :class="specialVision">
-      <router-link to="/" class="item" style="text-align: -webkit-center">
+    <nav class="ui left vertical menu"
+         @click="setMobileMenu()"
+         :class="specialVision">
+      <router-link to="/" class="item"
+                   data-mobile
+                   style="text-align: -webkit-center">
         <img src="http://turizmpskov.ru/image/logoTurizm/logoTurizm2.png" height="150" alt="Logotype">
       </router-link>
       <a class="item" @click="changeView()">
@@ -13,47 +17,71 @@
         </a>
         <div class="content">
           <p>
-            <router-link to="/common-information" class="sub-item">
+            <router-link to="/common-information"
+                         data-mobile
+                         class="sub-item">
               <span>Основные сведения</span>
             </router-link>
-            <router-link to="/structure" class="sub-item">
+            <router-link to="/structure"
+                         data-mobile
+                         class="sub-item">
               <span>Структура</span>
             </router-link>
-            <router-link to="/documents" class="sub-item">
+            <router-link to="/documents"
+                         data-mobile
+                         class="sub-item">
               <span>Документы Центра</span>
             </router-link>
-            <router-link to="/education" class="sub-item">
+            <router-link to="/education"
+                         data-mobile
+                         class="sub-item">
               <span>Образование</span>
             </router-link>
-            <router-link to="/educational-standards" class="sub-item">
+            <router-link to="/educational-standards"
+                         data-mobile
+                         class="sub-item">
               <span>Образовательные стандарты</span>
             </router-link>
-            <router-link to="/personal" class="sub-item">
+            <router-link to="/personal"
+                         data-mobile
+                         class="sub-item">
               <span>Руководство. Педагогический (научно-педагогический) состав</span>
             </router-link>
-            <router-link to="/material-tech-provision" class="sub-item">
+            <router-link to="/material-tech-provision"
+                         data-mobile
+                         class="sub-item">
               <span>Материально-техническое обеспечение и оснащённость образовательного процесса</span>
             </router-link>
-            <router-link to="/stipends" class="sub-item">
+            <router-link to="/stipends"
+                         data-mobile
+                         class="sub-item">
               <span>Стипендии и иные виды материальной поддержки</span>
             </router-link>
-            <router-link to="/paid-education-services" class="sub-item">
+            <router-link to="/paid-education-services"
+                         data-mobile
+                         class="sub-item">
               <span>Платные образовательные услуги</span>
             </router-link>
 <!--            <router-link to="/financial-economic-activity" class="sub-item">-->
 <!--              <span>Финансово-хозяйственная деятельность</span>-->
 <!--            </router-link>-->
-            <router-link to="/vacancies" class="sub-item">
+            <router-link to="/vacancies"
+                         data-mobile
+                         class="sub-item">
               <span>Вакантные места для приёма (перевода)</span>
             </router-link>
           </p>
         </div>
       </div>
 
-      <router-link to="/tourist-routes" class="item">
+      <router-link to="/tourist-routes"
+                   data-mobile
+                   class="item">
         <span>Туристские маршруты</span>
       </router-link>
-      <router-link to="/museum-about-education" class="item">
+      <router-link to="/museum-about-education"
+                   data-mobile
+                   class="item">
         <span>Музей истории народного образования Псковской области</span>
       </router-link>
 
@@ -80,34 +108,54 @@
 <!--        </div>-->
 <!--      </div>-->
 
-      <router-link to="/trips" class="item">
+      <router-link to="/trips"
+                   data-mobile
+                   class="item">
         <span>Экскурсионная деятельность</span>
       </router-link>
-      <router-link to="/innovation" class="item">
+      <router-link to="/innovation"
+                   data-mobile
+                   class="item" style="display: none">
         <span>Инновационная площадка</span>
       </router-link>
-      <router-link to="/hostel" class="item">
+      <router-link to="/hostel"
+                   data-mobile
+                   class="item">
         <span>Общежитие (Хостел)</span>
       </router-link>
-      <router-link to="/plans" class="item">
+      <router-link to="/plans"
+                   data-mobile
+                   class="item">
         <span>Планы работы Центра</span>
       </router-link>
-      <router-link to="/results" class="item">
+      <router-link to="/results"
+                   data-mobile
+                   class="item">
         <span>Итоги мероприятий (приказы, справки)</span>
       </router-link>
-      <router-link to="/publications" class="item">
+      <router-link to="/publications"
+                   data-mobile
+                   class="item">
         <span>Публикации о нас</span>
       </router-link>
-      <router-link to="/gallery" class="item">
+      <router-link to="/gallery"
+                   data-mobile
+                   class="item">
         <span>Фотогалерея</span>
       </router-link>
-      <router-link to="/meth-library" class="item">
+      <router-link to="/meth-library"
+                   data-mobile
+                   class="item">
         <span>Методическая библиотека</span>
       </router-link>
-      <router-link to="/anti-corruption" class="item">
+      <router-link to="/anti-corruption"
+                   data-mobile
+                   class="item">
         <span>Противодействие коррупции</span>
       </router-link>
-      <router-link to="/contacts" class="item">
+      <router-link to="/contacts"
+                   data-mobile
+                   class="item">
         <span>Контакты</span>
       </router-link>
     </nav>
@@ -154,6 +202,16 @@
       routeTo: function(self) {
         console.log('self');
         console.log(self);
+      },
+      setMobileMenu: function() {
+        // console.log('test')
+        if (event.target.dataset.mobile === '' || event.target.parentNode.dataset.mobile === '') {
+          this.$emit('mobileMenu', {})
+        }
+        // console.log(event.target)
+        // console.log(event.target.dataset)
+        // console.log(event.target.dataset.mobile)
+
       }
     },
     // updated() {

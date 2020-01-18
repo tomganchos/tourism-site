@@ -3,9 +3,7 @@
     <div class="big-container">
       <div class="mobile-version visible-xs">
         <div class="mobile-menu">
-          <left-menu></left-menu>
-        </div>
-        <div class="mobile-background" @click="toggleMenuFromBackground()">
+          <left-menu @mobileMenu="toggleMenu()"></left-menu>
         </div>
       </div>
 
@@ -59,16 +57,8 @@ export default {
     toggleMenu: function () {
       if (document.querySelector('.mobile-version .mobile-menu').classList.contains('open')) {
         document.querySelector('.mobile-version .mobile-menu').classList.remove('open');
-        document.querySelector('.mobile-version .mobile-background').classList.remove('open');
       } else {
         document.querySelector('.mobile-version .mobile-menu').classList.add('open');
-        document.querySelector('.mobile-version .mobile-background').classList.add('open');
-      }
-    },
-    toggleMenuFromBackground: function () {
-      if (document.querySelector('.mobile-version .mobile-menu').classList.contains('open')) {
-        document.querySelector('.mobile-version .mobile-menu').classList.remove('open');
-        document.querySelector('.mobile-version .mobile-background').classList.remove('open');
       }
     },
     setHeader: function (data) {
@@ -113,9 +103,9 @@ export default {
     width: 100%;
     margin: 5px;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .center-menu {
-      margin-top: 50px;
+      margin-top: 40px;
     }
   }
   .bars.icon {
@@ -123,17 +113,19 @@ export default {
   }
 
   .mobile-version .mobile-menu {
-    position: absolute;
-    z-index: 10;
     top: 42px;
-    left: -275px;
-    /*height: calc(100% - 42px);*/
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    height: 100%;
     background-color: #286090 !important;
-    transition: left 0.2s ease-in-out;
+    display: none;
   }
-
   .mobile-version .mobile-menu.open {
-    left: 0;
+    display: block;
+  }
+  .mobile-version .mobile-menu .menu {
+    width: 100% !important;
   }
 
   .mobile-version .mobile-menu .vertical.menu {
@@ -147,7 +139,7 @@ export default {
     bottom: 0;
     left: 0;
     right: 0;
-    transition: background-color 0.5s ease-in-out;
+    /*transition: background-color 0.5s ease-in-out;*/
   }
   .mobile-version .mobile-background.open {
     background-color: rgba(0, 0, 0, 0.8) !important;

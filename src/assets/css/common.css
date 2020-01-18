@@ -83,4 +83,5 @@ h3 {
 }
 .viewer img {
   border-radius: 15px;
+  object-fit: cover;
 }

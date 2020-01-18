@@ -82,7 +82,9 @@
           'http://turizmpskov.ru/image/host/host3.png',
           'https://pp.vk.me/c638631/v638631908/14fd9/oG-31fD2Tjg.jpg',
           'http://turizmpskov.ru/image/host/host4.png'],
-        options: { "inline": false, "button": true, "navbar": true, "title": false, "toolbar": false, "tooltip": false, "movable": false, "zoomable": false, "rotatable": false, "scalable": false, "transition": true, "fullscreen": false, "keyboard": true, "url": "data-source" }
+        options: { "inline": false, "button": true, "navbar": true, "title": false, "toolbar": false,
+          "tooltip": false, "movable": false, "zoomable": false, "rotatable": false, "scalable": false,
+          "transition": true, "fullscreen": false, "keyboard": true, "url": "data-source" }
       }
     },
     beforeMount() {
@@ -119,6 +121,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
+    cursor: pointer;
   }
   .image--cover {
     object-fit: cover;

@@ -6,11 +6,7 @@
     <div id="context">
       <div class="ui secondary menu">
         <a class="item active" data-tab="information">Информация</a>
-        <a class="item" data-tab="2018-2019">2018-2019</a>
-        <a class="item" data-tab="2017-2018">2017-2018</a>
-        <a class="item" data-tab="2016-2017">2016-2017</a>
-        <a class="item" data-tab="2015-2016">2015-2016</a>
-<!--        <a class="item" :data-tab="doc.year" v-for="doc in docsByYear">{{doc.year}}</a>-->
+        <a v-for="doc in docs" class="item" :data-tab="doc.year">{{doc.year}}</a>
       </div>
       <div class="ui active tab segment" data-tab="information">
         <h2>Информация:</h2>
@@ -37,42 +33,46 @@
           </div>
         </div>
       </div>
-      <div class="ui tab segment" data-tab="2018-2019">
+
+      <div v-for="doc in docs" class="ui tab segment" :data-tab="doc.year">
         <div class="text-block">
-          <div><h2>2018-2019 учебный год</h2></div>
+          <div><h2>{{ doc.year }} учебный год</h2></div>
         </div>
-      </div>
-      <div class="ui tab segment" data-tab="2017-2018">
-        <div class="text-block">
-          <div><h2>2017-2018 учебный год</h2></div>
-        </div>
-      </div>
-      <div class="ui tab segment" data-tab="2016-2017">
-        <div class="text-block">
-          <div><h2>2016-2017 учебный год</h2></div>
-        </div>
-      </div>
-      <div class="ui tab segment" data-tab="2015-2016">
-        <div class="text-block">
-          <div><h2>2015-2016 учебный год</h2></div>
-          <div class="text-block">
-            <div><h2>Программы педагогов:</h2></div>
-            <div class="ui relaxed divided list">
-              <div class="item">
-                <div class="item-icon">
-                  <i class="file alternate outline icon"></i>
-                </div>
-                <div class="content">
-                  <a class="header" href="https://drive.google.com/open?id=1tcNIZOpcnNh0iSAPTPPs9e3rog3vNcv0" target="_blank" rel="noopener">Юный экскурсовод. Баштырева</a>
-                </div>
+        <div class="text-block" v-if="doc.programs.length > 0">
+          <div><h2>Программы педагогов:</h2></div>
+          <div class="ui relaxed divided list">
+            <div class="item" v-for="item in doc.programs">
+              <div class="item-icon">
+                <i class="file alternate outline icon"></i>
               </div>
-              <div class="item">
-                <div class="item-icon">
-                  <i class="file alternate outline icon"></i>
-                </div>
-                <div class="content">
-                  <a class="header" href="https://drive.google.com/open?id=1S3YEFJ5qLdmsWFLeF-TXL-lfZm5MjQ9H" target="_blank" rel="noopener">Моя малая Родина. Бойкова</a>
-                </div>
+              <div class="content">
+                <a class="header" :href="item.link" target="_blank" rel="noopener">{{item.label}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-block" v-if="doc.common.length > 0">
+          <div><h2>Методические и иные документы для обеспечения образовательного процесса:</h2></div>
+          <div class="ui relaxed divided list">
+            <div class="item" v-for="item in doc.common">
+              <div class="item-icon">
+                <i class="file alternate outline icon"></i>
+              </div>
+              <div class="content">
+                <a class="header" :href="item.link" target="_blank" rel="noopener">{{item.label}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-block" v-if="doc.achievements.length > 0">
+          <div><h2>Достижения педагогов и обучающихся:</h2></div>
+          <div class="ui relaxed divided list">
+            <div class="item" v-for="item in doc.achievements">
+              <div class="item-icon">
+                <i class="file alternate outline icon"></i>
+              </div>
+              <div class="content">
+                <a class="header" :href="item.link" target="_blank" rel="noopener">{{item.label}}</a>
               </div>
             </div>
           </div>
@@ -85,16 +85,12 @@
 
 <script>
   import axios from 'axios';
-  const host = 'http://84.201.137.113:3012';
   export default {
     name: "EducationPage",
     data() {
       return {
         header: 'Образование',
-        docs: [],
-        docsCommon: [],
-        docsByYear: {},
-        yearList: []
+        docs: []
       }
     },
     beforeMount() {
@@ -103,9 +99,20 @@
       })
     },
     mounted() {
-      $('.menu .item')
-        .tab()
-      ;
+      this.getEducations();
+    },
+    methods: {
+      getEducations() {
+        axios.get('static/data/education.json')
+          .then(response => {
+            this.docs = response.data;
+          }).then(() => {
+            console.log(this.docs);
+          $('.menu .item')
+            .tab()
+          ;
+        });
+      }
     }
   }
 </script>

@@ -4,7 +4,7 @@
       <h1 class="ui medium header">{{header}}</h1>
     </div>
 
-    <div class="ui card" v-for="item in results">
+    <div class="ui card" v-for="item in results" v-if="item.results">
       <div class="content">
         <span class="header">{{item.title}}</span>
         <div class="meta">
@@ -52,17 +52,7 @@
       getResults() {
         axios.get('static/data/news.json')
           .then(response => {
-            this.results = response.data.map((item) => {
-              console.log(item);
-              if (item.results === true) {
-                return {
-                  title: item.title,
-                  description: item.description,
-                  date: item.date,
-                  links: item.links
-                }
-              }
-            })
+            this.results = response.data
           });
         console.log(this.results);
       }
@@ -77,7 +67,7 @@
     margin: 5px 0;
   }
   .ui.card .header {
-    color: #204d74;
+    color: #204d74 !important;
   }
   .item a {
     line-height: 1.3;

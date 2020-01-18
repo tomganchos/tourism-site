@@ -21,52 +21,43 @@
 
 <script>
   import TripPage from "@/components/TripPage";
+  import axios from 'axios';
 
   export default {
     name: "TripsPage",
-    components: {TripPage},
+    components: { TripPage },
     data() {
       return {
-          header: 'Экскурсионная деятельность',
-          trips: [
-              {
-                  route: '/trips/1',
-                  photo: '/static/images/trips/1.jpg',
-                  name: '«На страже веков»',
-                  duration: 'Продолжительность маршрута - 1 день',
-                  description: 'Путешествие по местам боевой славы Псковщины. Экскурсия по городу Пскову, крепости ' +
-                      'Изборск, Свято-Успенскому Псково-Печорскому монастырю.'
-              }, {
-                  route: '/trips/2',
-                  photo: '/static/images/trips/2.jpg',
-                  name: '«Псков через века»',
-                  duration: 'Продолжительность маршрута - 1 день',
-                  description: 'Рассказ о городе Пскове от истоков до его полного становления. Обзорная экскурсия ' +
-                      'по городу с посещением Псковского музея-заповедника.'
-              }, {
-                  route: '/trips/3',
-                  photo: '/static/images/trips/3.JPG',
-                  name: '«Южный щит»',
-                  duration: 'Продолжительность маршрута - 1 день',
-                  description: 'Посещение военно-исторического музея в городе Остров. Рассказ о периоде Великой ' +
-                      'Отечественной войны в экспонатах. Посещение военно-мемориального комплекса «Линия ' +
-                      'Сталина» (д. Холматка) – линия обороны советских солдат.'
-              }, {
-                  route: '/trips/4',
-                  photo: '/static/images/trips/0.jpg',
-                  name: '«Александр Невский и Псковская земля»',
-                  duration: 'Продолжительность маршрута - 1 день',
-                  description: 'Рассказ о Великом имени России – Александре Невском на Псковской земле. Посещение ' +
-                      'Псковского Кремля и Воинского храма Святого Благоверного Великого Князя Александра Невского ' +
-                      'в городе Пскове.'
-              }
-          ]
+        header: 'Экскурсионная деятельность',
+        trips: []
       }
+    },
+    created() {
+      this.getTrips();
     },
     beforeMount() {
       this.$emit('label', {
         label: this.header
       })
+    },
+    methods: {
+      getTrips() {
+        axios.get('static/data/trips.json')
+          .then(response => {
+            this.trips = response.data.map(item => {
+              return {
+                route: item.route,
+                photo: item.photo,
+                name: item.name,
+                duration: item.duration,
+                description: item.description,
+                images: item.images,
+                page: item.page
+              }
+            })
+          });
+        console.log(this.trips);
+      }
     }
   }
 </script>

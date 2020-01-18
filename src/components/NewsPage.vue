@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <carousel :data=slider :controls="false" :indicators="false" :interval="3000"></carousel>
+    <carousel v-if="displayWidth >= 768" :data=slider :controls="false" :indicators="false" :interval="3000"/>
     <div class="ui segment head hidden-xs">
       <h1 class="ui medium header">{{header}}</h1>
     </div>
@@ -12,7 +12,8 @@
                 class="viewer image" ref="viewer">
           <template slot-scope="scope">
             <img class="photo image--cover"
-                 v-for="src in scope.images"
+                 loading="lazy"
+                 v-for="src in scope.images" :style="{ 'width': (100 / scope.images.length) + '%' }"
                  :src="src" :key="src" alt="hostel-photo">
           </template>
         </viewer>
@@ -28,45 +29,10 @@
         <div class="ui relaxed divided list">
           <div class="item" v-for="link in item.links">
             <div class="item-icon">
-              <i class="file alternate outline icon"></i>
+              <i :class="link.type + ' icon'"></i>
             </div>
             <div class="content">
               <a class="header" :href="link.link" target="_blank" rel="noopener">{{link.title}}</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="ui card" style="">
-      <div class="image">
-        <img src="https://pp.userapi.com/c841235/v841235966/3f34a/gKqGpdsCS-I.jpg">
-      </div>
-      <div class="content">
-        <a class="header">Соревнования по технике пешеходного туризма</a>
-        <div class="meta">
-          <span class="date">17 ноября 2017</span>
-        </div>
-        <div class="description">
-          11-12 ноября 2017 года в Пскове прошли соревнования по технике пешеходного туризма в закрытых помещениях.
-        </div>
-      </div>
-      <div class="extra content">
-        <div class="ui relaxed divided list">
-          <div class="item">
-            <div class="item-icon">
-              <i class="file alternate outline icon"></i>
-            </div>
-            <div class="content">
-              <a class="header" href="https://drive.google.com/open?id=1tcNIZOpcnNh0iSAPTPPs9e3rog3vNcv0" target="_blank" rel="noopener">Юный экскурсовод. Баштырева</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="item-icon">
-              <i class="file alternate outline icon"></i>
-            </div>
-            <div class="content">
-              <a class="header" href="https://drive.google.com/open?id=1S3YEFJ5qLdmsWFLeF-TXL-lfZm5MjQ9H" target="_blank" rel="noopener">Моя малая Родина. Бойкова</a>
             </div>
           </div>
         </div>
@@ -91,13 +57,13 @@
       return {
         header: 'Последние новости',
         slider: [
-          // '<div class="slide"><img src="http://turizmpskov.ru/image/index/1.jpg" alt="1" height="400px"></div>',
-          '<svg role="image" aria-label="1" preserveAspectRatio="xMidYMid slice" viewBox="0 0 2560 1067" class="image"><image xlink:href="http://turizmpskov.ru/image/index/1.jpg"></image></svg>',
-          '<svg role="image" aria-label="2" preserveAspectRatio="xMidYMid slice" viewBox="0 0 2560 1067" class="image"><image xlink:href="http://turizmpskov.ru/image/index/M6xY5QGBMeQ.jpg"></image></svg>',
-          '<svg role="image" aria-label="3" preserveAspectRatio="xMidYMid slice" viewBox="0 0 2560 1067" class="image"><image xlink:href="http://turizmpskov.ru/image/index/E15X2dJvtI8.jpg"></image></svg>',
+          '<svg role="image" aria-label="1" preserveAspectRatio="xMidYMid slice" viewBox="0 0 630 263" class="image"><image xlink:href="/static/images/carousel/1.jpg"/></svg>',
+          '<svg role="image" aria-label="2" preserveAspectRatio="xMidYMid slice" viewBox="0 0 630 263" class="image"><image xlink:href="/static/images/carousel/2.jpg"/></svg>',
+          '<svg role="image" aria-label="3" preserveAspectRatio="xMidYMid slice" viewBox="0 0 630 263" class="image"><image xlink:href="/static/images/carousel/3.jpg"/></svg>',
         ],
         options: { "inline": false, "button": true, "navbar": true, "title": false, "toolbar": false, "tooltip": false, "movable": false, "zoomable": false, "rotatable": false, "scalable": false, "transition": true, "fullscreen": false, "keyboard": true, "url": "data-source" },
-        news: []
+        news: [],
+        displayWidth: window.innerWidth
       }
     },
     beforeMount() {
@@ -112,18 +78,9 @@
       getNews() {
         axios.get('static/data/news.json')
           .then(response => {
-            this.news = response.data.map((item) => {
-              console.log(item);
-              return {
-                title: item.title,
-                description: item.description,
-                date: item.date,
-                links: item.links,
-                images: item.images
-              }
-            })
+            this.news = response.data
           });
-        console.log(this.results);
+        // console.log(this.results);
       },
       inited (viewer) {
         this.$viewer = viewer
@@ -138,13 +95,14 @@
 <style scoped>
   @import "./../assets/css/common.css";
   .ui.segment.head {
-    margin-top: 0;
+    margin-top: 5px;
   }
   .ui.card {
-    width: 100%
+    width: 100%;
+    margin: 10px 0 !important;
   }
   .ui.card:first-child {
-    margin-top: 5px !important;
+    margin-top: 10px !important;
   }
 
   .item a {
@@ -164,10 +122,23 @@
     display: flex;
   }
   .ui.list {
-    margin: 10px 0;
+    margin: 10px 0 !important;
   }
   .card .image {
     cursor: pointer;
+    display: flex;
+  }
+  .ui.card .header {
+    color: #204d74 !important;
+  }
+  .card .extra.content {
+    padding: 0 1em !important;
+  }
+
+  @media screen and (max-width: 767px) {
+    .desktop-only {
+      display: none;
+    }
   }
 
 </style>
