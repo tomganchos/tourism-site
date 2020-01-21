@@ -5,7 +5,7 @@
       <router-link to="/" class="item"
                    data-mobile
                    style="text-align: -webkit-center">
-        <img src="http://turizmpskov.ru/image/logoTurizm/logoTurizm2.png" height="150" alt="Logotype">
+        <img src="/static/images/logo/logoTurizm.png" height="150" alt="Logotype">
       </router-link>
       <a class="item" @click="changeView()">
         <i class="low vision icon"></i><span style="padding-left: 10px">{{specialVisionBtn}}</span>

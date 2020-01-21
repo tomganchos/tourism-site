@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './store'
+import Ads from 'vue-google-adsense'
 import VueCarousel from '@chenfengyuan/vue-carousel';
 
 
@@ -13,8 +14,15 @@ import './assets/semantic/dist/semantic.min.js'
 
 // import './assets/bootstrap/js/bootstrap.js'
 Vue.config.productionTip = false;
+
 Vue.use(require('vue-moment'));
 /* eslint-disable no-new */
+Vue.use(require('vue-script2'))
+
+Vue.use(Ads.Adsense)
+Vue.use(Ads.InArticleAdsense)
+Vue.use(Ads.InFeedAdsense)
+
 new Vue({
   el: '#app',
   router,

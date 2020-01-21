@@ -30,18 +30,28 @@
 		"page": "documents",
 		"category": "finance"
 	}, {
+		"name": "План ФХД на 2019",
+		"link": "https://drive.google.com/open?id=1yDRDNJdqwOLwesj-3n074uGaWRkc_X6A",
+		"page": "documents",
+		"category": "finance"
+	}, {
 		"name": "Отчёт о результатах самообследования за 2017",
 		"link": "https://drive.google.com/open?id=1XI2ksBoO8Bx0r1Tmnj_a4Wj9IYbsHMPz",
 		"page": "documents",
 		"category": "self"
 	}, {
-		"name": "Справка в отсутствии оказания платных услуг 2018",
+		"name": "Справка в отсутствии оказания платных образовательных услуг 2018",
 		"link": "https://drive.google.com/open?id=11k88BT8QdbHOsUARy9QCJjKSJbIWauD_",
 		"page": "documents",
 		"category": "paid"
 	}, {
-		"name": "Справка в отсутствии оказания платных услуг 2019",
+		"name": "Справка в отсутствии оказания платных образовательных услуг 2019",
 		"link": "https://drive.google.com/open?id=1YvtKwknY_nUnPGwesfcsHQqnxhrZhN4B",
+		"page": "documents",
+		"category": "paid"
+	}, {
+		"name": "Справка в отсутствии оказания платных образовательных услуг 2020",
+		"link": "https://drive.google.com/open?id=1YIg_YweDySqeA1nmsc7QHaof6dddlG8W",
 		"page": "documents",
 		"category": "paid"
 	}, {

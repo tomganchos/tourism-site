@@ -1,8 +1,20 @@
 <template>
     <div class="ui right vertical menu">
 
-<!--      <div class="ui vertical rectangle test ad" data-text="Vertical Rectangle" style="margin: auto;">-->
-<!--      </div>-->
+      <div style="margin: 15px 0">
+        <div id="vk_groups" style="margin: auto"></div>
+      </div>
+      <div style="margin: 15px 0">
+        <div id="vk_groups1" style="margin: auto"></div>
+      </div>
+
+      <div class="ui vertical rectangle ad"
+           data-text="Vertical Rectangle" style="margin: auto;">
+        <Adsense
+          data-ad-client="ca-pub-5715873076999226"
+          data-ad-slot="9318048131">
+        </Adsense>
+      </div>
 
       <a class="item first" href="https://минобрнауки.рф" target="_blank" rel="noopener">
         <div class="link-img">
@@ -54,11 +66,15 @@
       </a>
     </div>
 </template>
-
 <script>
-
+  import Adsense from 'vue-google-adsense/dist/Adsense.min.js'
+  VK.Widgets.Group("vk_groups", {mode: 1, width: "250", height: "auto", color3: '337AB7'}, 43893537);
+  VK.Widgets.Group("vk_groups2", {mode: 1, width: "250", height: "auto", color3: '337AB7'}, 43893537);
+  VK.Widgets.Group("vk_groups1", {mode: 1, width: "250", height: "auto", color3: '337AB7'}, 133855483);
+  VK.Widgets.Group("vk_groups3", {mode: 1, width: "250", height: "auto", color3: '337AB7'}, 133855483);
     export default {
-        name: "RightMenu"
+        name: "RightMenu",
+      component: {Adsense}
     }
 </script>
 

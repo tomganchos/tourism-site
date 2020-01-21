@@ -310,5 +310,23 @@
         "month": true
       }
     ]
+  },
+  {
+    "year": 2020,
+    "docs": [
+      {
+        "name": "Приказ о проведении Туриады 2020",
+        "link": "https://drive.google.com/open?id=1SffnyNwQbpDqFHUggqdzeKzo1-X8E9_1",
+        "month": false
+      }, {
+        "name": "Положение о Туриаде 2020",
+        "link": "https://drive.google.com/open?id=1usr2kyDpPwIbZ7dUyE04oMVXxWbrUAyz",
+        "month": false
+      }, {
+        "name": "План на январь",
+        "link": "https://drive.google.com/open?id=1Lg6aZi7dQ_bxZr7ss98_2HOIYJSW9B1p",
+        "month": true
+      }
+    ]
   }
 ]

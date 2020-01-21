@@ -11,7 +11,7 @@
         <div class="hidden-xs block-menu">
           <left-menu></left-menu>
         </div>
-        <div class="visible-sm block-menu">
+        <div class="visible-sm block-menu" v-if="displayWidth >= 768 && displayWidth < 992">
           <right-menu></right-menu>
         </div>
       </div>
@@ -28,7 +28,7 @@
       <div class="center-menu">
         <router-view @label="setHeader"></router-view>
       </div>
-      <div class="visible-md visible-lg visible-xl block-menu">
+      <div class="visible-md visible-lg visible-xl block-menu" v-if="displayWidth >= 992">
         <right-menu></right-menu>
       </div>
     </div>
@@ -50,8 +50,12 @@ export default {
   },
   data () {
     return {
-      header: ''
+      header: '',
+      displayWidth: window.innerWidth
     }
+  },
+  updated() {
+    this.displayWidth = window.innerWidth
   },
   methods: {
     toggleMenu: function () {

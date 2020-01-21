@@ -13,8 +13,11 @@
           <template slot-scope="scope">
             <img class="photo image--cover"
                  loading="lazy"
-                 v-for="src in scope.images" :style="{ 'width': (100 / scope.images.length) + '%' }"
-                 :src="src" :key="src" alt="hostel-photo">
+                 v-for="src in scope.images"
+                 :style="{ 'width': (100 / scope.images.length) + '%' }"
+                 :src="src.preview ? src.preview : src"
+                 :data-source="src.full ? src.full : src"
+                 :key="src.preview ? src.preview : src" alt="news-photo">
           </template>
         </viewer>
 <!--        <img alt="image" v-for="image in item.images" :src="image">-->
@@ -76,7 +79,7 @@
     },
     methods: {
       getNews() {
-        axios.get('static/data/news.json')
+        axios.get('static/data/news.json?1')
           .then(response => {
             this.news = response.data
           });
@@ -126,7 +129,7 @@
   }
   .card .image {
     cursor: pointer;
-    display: flex;
+    display: flex !important;
   }
   .ui.card .header {
     color: #204d74 !important;
