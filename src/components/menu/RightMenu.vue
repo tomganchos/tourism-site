@@ -10,10 +10,12 @@
 
       <div class="ui vertical rectangle ad"
            data-text="Vertical Rectangle" style="margin: auto;">
-        <Adsense
-          data-ad-client="ca-pub-5715873076999226"
-          data-ad-slot="9318048131">
-        </Adsense>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-5715873076999226"
+             data-ad-slot="9318048131"
+             data-ad-format="auto">
+        </ins>
       </div>
 
       <a class="item first" href="https://минобрнауки.рф" target="_blank" rel="noopener">
@@ -67,14 +69,12 @@
     </div>
 </template>
 <script>
-  import Adsense from 'vue-google-adsense/dist/Adsense.min.js'
   VK.Widgets.Group("vk_groups", {mode: 1, width: "250", height: "auto", color3: '337AB7'}, 43893537);
   VK.Widgets.Group("vk_groups2", {mode: 1, width: "250", height: "auto", color3: '337AB7'}, 43893537);
   VK.Widgets.Group("vk_groups1", {mode: 1, width: "250", height: "auto", color3: '337AB7'}, 133855483);
   VK.Widgets.Group("vk_groups3", {mode: 1, width: "250", height: "auto", color3: '337AB7'}, 133855483);
     export default {
-        name: "RightMenu",
-      component: {Adsense}
+        name: "RightMenu"
     }
 </script>
 

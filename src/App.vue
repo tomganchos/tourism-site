@@ -3,22 +3,22 @@
     <div class="big-container">
       <div class="mobile-version visible-xs">
         <div class="mobile-menu">
-          <left-menu @mobileMenu="toggleMenu()"></left-menu>
+          <left-menu @mobileMenu="toggleMenu()"/>
         </div>
       </div>
 
       <div>
         <div class="hidden-xs block-menu">
-          <left-menu></left-menu>
+          <left-menu/>
         </div>
         <div class="visible-sm block-menu" v-if="displayWidth >= 768 && displayWidth < 992">
-          <right-menu></right-menu>
+          <right-menu/>
         </div>
       </div>
 
       <div class="ui menu visible-xs mobile">
         <a class="header item" @click="toggleMenu()" style="display: inline-block">
-          <i class="bars icon"></i>
+          <i class="bars icon"/>
         </a>
         <div class="mobile-header">
           <h1 class="ui medium header">{{header}}</h1>
@@ -26,10 +26,10 @@
       </div>
 
       <div class="center-menu">
-        <router-view @label="setHeader"></router-view>
+        <router-view @label="setHeader"/>
       </div>
       <div class="visible-md visible-lg visible-xl block-menu" v-if="displayWidth >= 992">
-        <right-menu></right-menu>
+        <right-menu/>
       </div>
     </div>
 
