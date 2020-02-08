@@ -48,6 +48,14 @@
               <a class="header" href="https://drive.google.com/file/d/0B4Y-eduzf4rjNEoxVjFRcU9XeEE/view?usp=sharing" target="_blank" rel="noopener">Методические рекомендации по реализации доп.программ по туристско-краеведческой деятельности</a>
             </div>
           </div>
+          <div class="item">
+            <div class="item-icon">
+              <i class="file alternate outline icon"></i>
+            </div>
+            <div class="content">
+              <a class="header" href="https://drive.google.com/open?id=1Y6uU3xQdoBEzL5V9reC-Zw_YTf0xOFkY" target="_blank" rel="noopener">Методическое пособие "Школа безопасности"</a>
+            </div>
+          </div>
         </div>
 
       </div>
