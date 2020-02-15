@@ -124,6 +124,9 @@
   .item .content {
     display: flex;
   }
+  .card .content .description {
+    white-space: pre-line;
+  }
   .ui.list {
     margin: 10px 0 !important;
   }
