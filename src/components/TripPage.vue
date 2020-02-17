@@ -50,7 +50,7 @@
             this.trip = response.data[this.$route.params.id - 1]
             }).then(() => {
               this.images = this.trip.images
-            })
+            });
         console.log(this.trip);
       },
       inited (viewer) {
@@ -100,5 +100,11 @@
     div.logo img {
       height: 75px;
     }
+  }
+  >>> .router-link-active {
+    white-space: nowrap;
+  }
+  h1.header {
+    text-align: right;
   }
 </style>
