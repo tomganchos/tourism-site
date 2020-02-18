@@ -41,6 +41,7 @@
     mounted() {
       this.getTrips();
       console.log(this.$route.params.id);
+      window.scrollTo(0, 0)
     },
     methods: {
       getTrips() {
