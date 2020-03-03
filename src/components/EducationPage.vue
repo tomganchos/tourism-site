@@ -103,7 +103,7 @@
     },
     methods: {
       getEducations() {
-        axios.get('static/data/education.json')
+        axios.get('static/data/education.json?' + new Date().getTime())
           .then(response => {
             this.docs = response.data;
           }).then(() => {

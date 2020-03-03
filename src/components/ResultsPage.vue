@@ -50,7 +50,7 @@
     },
     methods: {
       getResults() {
-        axios.get('static/data/news.json')
+        axios.get('static/data/news.json?' + new Date().getTime())
           .then(response => {
             this.results = response.data
           });

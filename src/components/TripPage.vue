@@ -45,7 +45,7 @@
     },
     methods: {
       getTrips() {
-        axios.get('../static/data/trips.json')
+        axios.get('../static/data/trips.json?' + new Date().getTime())
           .then(response => {
             console.log(response.data);
             this.trip = response.data[this.$route.params.id - 1]

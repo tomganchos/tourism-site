@@ -208,7 +208,7 @@
     },
     methods: {
       getDocs() {
-        axios.get('static/data/docs.json')
+        axios.get('static/data/docs.json?' + new Date().getTime())
           .then(response => {
             this.docs = response.data.map((item) => {
               return {

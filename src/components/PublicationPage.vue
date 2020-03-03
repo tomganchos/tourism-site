@@ -52,7 +52,7 @@
     },
     methods: {
       getDocs() {
-        axios.get('static/data/publications.json')
+        axios.get('static/data/publications.json?' +  + new Date().getTime())
           .then(response => {
             this.docs = response.data.map((item) => {
               return {

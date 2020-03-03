@@ -79,7 +79,7 @@
     },
     methods: {
       getNews() {
-        axios.get('static/data/news.json?1')
+        axios.get('static/data/news.json?' + new Date().getTime())
           .then(response => {
             this.news = response.data
           });

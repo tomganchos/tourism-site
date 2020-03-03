@@ -42,7 +42,7 @@
     },
     methods: {
       getTrips() {
-        axios.get('static/data/trips.json')
+        axios.get('static/data/trips.json?' + new Date().getTime())
           .then(response => {
             this.trips = response.data.map(item => {
               return {

@@ -70,7 +70,7 @@
     },
     methods: {
       getPlans() {
-        axios.get('static/data/plans.json')
+        axios.get('static/data/plans.json?' + new Date().getTime())
           .then(response => {
             this.plans = response.data.map(item => {
               return {
