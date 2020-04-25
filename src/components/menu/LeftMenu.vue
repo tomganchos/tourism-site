@@ -74,6 +74,11 @@
         </div>
       </div>
 
+      <router-link to="/distance-learning"
+                   data-mobile
+                   class="item">
+        <span>Дистанционное обучение</span>
+      </router-link>
       <router-link to="/tourist-routes"
                    data-mobile
                    class="item">
@@ -121,7 +126,7 @@
       <router-link to="/hostel"
                    data-mobile
                    class="item">
-        <span>Общежитие (Хостел)</span>
+        <span>Общежитие</span>
       </router-link>
       <router-link to="/plans"
                    data-mobile
