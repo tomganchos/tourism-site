@@ -1,5 +1,45 @@
 [
   {
+    "year": "2019-2020",
+    "programs": [
+      {
+        "label": "Достойные потомки. Митина",
+        "link": "https://drive.google.com/open?id=15otMqzoxS2w3wnzEgmH1J68XTGdjLZpb"
+      },
+      {
+        "label": "Юный турист-ориентировщик. Смуров",
+        "link": "https://drive.google.com/open?id=1sBnPqadqrNSkQMlPluRDn_WSl_0bZfPA"
+      },
+      {
+        "label": "Юный экскурсовод. Баштырева",
+        "link": "https://drive.google.com/open?id=1m29yHtCYGpeszS3bcFG3yTmr9ubtxAPf"
+      },
+      {
+        "label": "Моя малая Родина. Бойкова",
+        "link": "https://drive.google.com/open?id=1OopFaZdbGtie4ucvE-4nvqcgC7lF_u2w"
+      }
+    ],
+    "common": [
+      {
+        "label": "Расписание занятий",
+        "link": "https://drive.google.com/open?id=1dldyzpJSQRDDYg83UZiNcnkIPOz_rVVz"
+      },
+      {
+        "label": "Изменение в расписании занятий",
+        "link": "https://drive.google.com/open?id=1li4X8yyEFhDfnM1w7myYV4gdXnX6UJoS"
+      },
+      {
+        "label": "Календарный учебный график",
+        "link": "https://drive.google.com/open?id=1UaLXUJx4pzFYURJV2OSIBZK6WhIi8NrC"
+      },
+      {
+        "label": "Реализуемые дополнительные программы",
+        "link": "https://drive.google.com/open?id=1KokVSDKmjw1jvCDGTnkcOnNF5SUzMMNA"
+      }
+    ],
+    "achievements": []
+  },
+  {
   "year": "2018-2019",
   "programs": [
     {
@@ -31,21 +71,18 @@
     {
       "label": "Реализуемые дополнительные программы",
       "link": "https://drive.google.com/open?id=1RCRGTCzvtxOzyUQ4ccWzmX27ZgfaA5jU"
-    },
-    {
-      "label": "Методические рекомендации по расследованию несчастных случаев",
-      "link": "https://drive.google.com/open?id=1ywyl0uFP4IL3VxUDJ5QmhPVHrLi5jMoK"
-    },
-    {
-      "label": "Об утверждении Правил организованной перевозки группы детей автобусами",
-      "link": "https://drive.google.com/open?id=1ZhLK45cOqTEgmcmmPTVZzyBqy4Fm5XdI"
-    },
-    {
-      "label": "Методические рекомендации по реализации доп.программ",
-      "link": "https://drive.google.com/open?id=1HL-gBm43CkjQuvMOskAcgDcD3qjll6CE"
     }
   ],
-  "achievements": []
+  "achievements": [
+    {
+      "label": "Поздравляем Панфилову Елизавету (1 место) и Осипову Софью (3 место) на открытых городских соревнованиях по скалолазанию на искусственном рельефе. Педагог Лукьянова Яна Юрьевна.",
+      "link": "/static/images/education/1.jpg"
+    },
+    {
+      "label": "Поздравляем Котельникову Софью (2 место) на открытых городских соревнованиях по скалолазанию на искусственном рельефе . Педагог Бойкова Ольга Викторовна.",
+      "link": "/static/images/education/2.jpg"
+    }
+  ]
 },
   {
     "year": "2017-2018",

@@ -76,7 +76,7 @@
     name: "HostelPage",
     data() {
       return {
-        header: 'Общежитие (Хостел "Турист")',
+        header: 'Общежитие',
         images: ['https://pp.vk.me/c638631/v638631908/14fe3/W5kfcP4DP0Q.jpg',
           'http://turizmpskov.ru/image/host/host2.png',
           'http://turizmpskov.ru/image/host/host3.png',

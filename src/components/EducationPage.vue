@@ -24,10 +24,34 @@
           <div class="ui relaxed divided list">
             <div class="item">
               <div class="item-icon">
-                <i class="file alternate outline icon"></i>
+                <i class="file alternate outline icon"/>
               </div>
               <div class="content">
                 <a class="header" href="https://drive.google.com/file/d/1M69X_53I__lhBNqipGve7P2HGjykP70N/view?usp=sharing" target="_blank" rel="noopener">Памятка по безопасности школьников в сети Интернет</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-icon">
+                <i class="file alternate outline icon"/>
+              </div>
+              <div class="content">
+                <a class="header" href="https://drive.google.com/open?id=1ywyl0uFP4IL3VxUDJ5QmhPVHrLi5jMoK" target="_blank" rel="noopener">Методические рекомендации по расследованию несчастных случаев</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-icon">
+                <i class="file alternate outline icon"/>
+              </div>
+              <div class="content">
+                <a class="header" href="https://drive.google.com/open?id=1ZhLK45cOqTEgmcmmPTVZzyBqy4Fm5XdI" target="_blank" rel="noopener">Об утверждении Правил организованной перевозки группы детей автобусами</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-icon">
+                <i class="file alternate outline icon"/>
+              </div>
+              <div class="content">
+                <a class="header" href="https://drive.google.com/open?id=1HL-gBm43CkjQuvMOskAcgDcD3qjll6CE" target="_blank" rel="noopener">Методические рекомендации по реализации доп.программ</a>
               </div>
             </div>
           </div>
