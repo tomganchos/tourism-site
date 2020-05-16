@@ -1,5 +1,17 @@
 [
   {
+    "title": "День Победы!",
+    "date": "2020-05-09T00:00:00.000",
+    "description": "",
+    "results": false,
+    "images": [
+      {
+        "preview": "/static/images/news/2005/1_p.jpg",
+        "full": "/static/images/news/2005/1_f.jpg"
+      }
+    ]
+  },
+  {
     "title": "Дистанционное обучение",
     "date": "2020-04-21T00:00:00.000",
     "description": "Обзор онлайн платформ.",

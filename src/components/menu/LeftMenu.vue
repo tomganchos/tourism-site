@@ -89,6 +89,9 @@
                    class="item">
         <span>Музей истории народного образования Псковской области</span>
       </router-link>
+      <a class="item" href="https://museum.pskovedu.ru/" target="_blank">
+        <span>Цифровой школьный музей</span>
+      </a>
 
 <!--      <div class="ui accordion">-->
 <!--        <a class="title item">-->

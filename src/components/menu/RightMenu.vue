@@ -18,6 +18,13 @@
         </ins>
       </div>
 
+      <a class="brand-book"
+         href="https://may9.ru/brandbook/"
+         target="_blank"
+         style="margin-top: 15px; cursor: pointer">
+        <img src="/static/images/links/75.jpg" alt="brandbook" style="width: 100%">
+      </a>
+
       <a class="item first" href="https://минобрнауки.рф" target="_blank" rel="noopener">
         <div class="link-img">
           <img src="http://turizmpskov.ru/image/links/Min_obr_i_nauki.png">
