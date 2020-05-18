@@ -1,6 +1,96 @@
 {
   "weeks": [
     {
+      "date": "18.05 - 24.05",
+      "works": [
+        {
+          "title": "\"Юный турист-ориентировщик\". Педагог Смуров Вадим Анатольевич",
+          "links": [
+            {
+              "title": "1 группа",
+              "link": "https://drive.google.com/open?id=1QIZNio-omkwISWF-n7lCs_Q2FccizDpO",
+              "type": "file alternate outline"
+            },
+            {
+              "title": "2 группа",
+              "link": "https://drive.google.com/open?id=1zbNGdyp9g20QehPdPl-Lv6EsikCxpdaJ",
+              "type": "file alternate outline"
+            }
+          ]
+        },
+        {
+          "title": "\"Юный экскурсовод\" Педагог Баштырева Светлана Васильевна",
+          "links": [
+            {
+              "title": "Задание на 20 мая",
+              "link": "https://drive.google.com/open?id=1qg2IF6qc0875lE4mP5OqEoEVH0f6J1e7",
+              "type": "file alternate outline"
+            },
+            {
+              "title": "Задание на 21 мая",
+              "link": "https://drive.google.com/open?id=1YH1JMu7zPA4mqvV49n1K571fm9GmnsBl",
+              "type": "file alternate outline"
+            }
+          ]
+        },
+        {
+          "title": "\"Моя малая Родина\" Педагог Бойкова Ольга Викторовна",
+          "links": [
+            {
+              "title": "Тема для занятий",
+              "link": "https://drive.google.com/open?id=1KYoCB7XasSO4g31GkS7A5E7PPoTertiK",
+              "type": "file alternate outline"
+            },
+            {
+              "title": "Приложение 1",
+              "link": "https://drive.google.com/open?id=1UnntJYinsb8CE-BYk2_T_0aBmCMlB4-M",
+              "type": "file alternate outline"
+            },
+            {
+              "title": "Приложение 2",
+              "link": "https://drive.google.com/open?id=1o3M7CGAUOzHn7U8kBcxb4-xMgujXm2rj",
+              "type": "file alternate outline"
+            }
+          ]
+        },
+        {
+          "title": "\"Техника пешеходного туризма\" Педагог Лукьянова Яна Юрьевна",
+          "links": [
+            {
+              "title": "Старшая группа",
+              "link": "https://drive.google.com/open?id=1CDLwovM-bZuZ_pGBBRZQ56-JJ4VIzEU6",
+              "type": "file alternate outline"
+            },
+            {
+              "title": "1 занятие. Младшая группа",
+              "link": "https://drive.google.com/open?id=12nAwLfPxE30cFJazutHSFnu_AgpSROjd",
+              "type": "file alternate outline"
+            },
+            {
+              "title": "2 занятие. Младшая группа",
+              "link": "https://drive.google.com/open?id=1IldUvzVP9xayUnBO7eE8NjDUHxvpiJbc",
+              "type": "file alternate outline"
+            }
+          ]
+        },
+        {
+          "title": "\"Достойные потомки\"  педагог Митина Марина Леонидовна",
+          "links": [
+            {
+              "title": "18.05. Псков в годы Северной войны",
+              "link": "https://drive.google.com/open?id=1kO5cBoZ9jv-6BSqmyXZ2LdSd5n-Qpa0U",
+              "type": "file alternate outline"
+            },
+            {
+              "title": "23.05. История Пскова 16-18 в.в.",
+              "link": "https://drive.google.com/open?id=1-iGuSHIAOoCvf60TzPTC1atxNUdojPd9",
+              "type": "file alternate outline"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "11.05 - 17.05",
       "works": [
         {
