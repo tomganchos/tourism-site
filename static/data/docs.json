@@ -40,6 +40,16 @@
 		"page": "documents",
 		"category": "self"
 	}, {
+		"name": "Отчёт о результатах самообследования за 2018",
+		"link": "https://drive.google.com/open?id=1gk-IqtMJ_NnPH2sWgljrwpRn9uP5YcfD",
+		"page": "documents",
+		"category": "self"
+	}, {
+		"name": "Отчёт о результатах самообследования за 2019",
+		"link": "https://drive.google.com/open?id=1YFHwkVTnz2tQk8EiKZpNRJ4K00ruGgOL",
+		"page": "documents",
+		"category": "self"
+	}, {
 		"name": "Справка в отсутствии оказания платных образовательных услуг 2018",
 		"link": "https://drive.google.com/open?id=11k88BT8QdbHOsUARy9QCJjKSJbIWauD_",
 		"page": "documents",
@@ -60,8 +70,18 @@
 		"page": "documents",
 		"category": "control"
 	}, {
-		"name": "test",
-		"link": "https://drive.google.com/open?id=1YvtKwknY_nUnPGwesfcsHQqnxhrZhN4B",
+		"name": "Гос.задание на 2019 год",
+		"link": "https://drive.google.com/file/d/1_GC5fAuiR1Tld-MNvSM0XR9BwguL2oTk/view?usp=sharing",
+		"page": "documents",
+		"category": "government"
+	}, {
+		"name": "Отчёт о выполнении Гос.задания за 2019 год",
+		"link": "https://drive.google.com/file/d/1SOd37xlnsH78191QR_WSDkrX9h3RPEWn/view?usp=sharing",
+		"page": "documents",
+		"category": "government"
+	}, {
+		"name": "Гос.задание на 2020 год",
+		"link": "https://drive.google.com/file/d/1PAAYaBiGyiqvQ0i_tmJSlutEuNN0OoW9/view?usp=sharing",
 		"page": "documents",
 		"category": "government"
 	}, {
