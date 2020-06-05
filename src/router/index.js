@@ -26,6 +26,7 @@ import StipendsPage from "@/components/StipendsPage";
 import MaterialTechProvisionPage from "@/components/MaterialTechProvisionPage";
 import PaidEducationServicesPage from "@/components/PaidEducationServicesPage";
 import DistanceLearningPage from "@/components/DistanceLearningPage";
+import ForPupilsPage from "@/components/ForPupilsPage";
 
 Vue.use(Router);
 
@@ -101,6 +102,11 @@ export default new Router({
       path: '/distance-learning',
       name: 'DistanceLearningPage',
       component: DistanceLearningPage
+    },
+    {
+      path: '/for-pupils',
+      name: 'ForPupilsPage',
+      component: ForPupilsPage
     },
     {
       path: '/tourist-routes',

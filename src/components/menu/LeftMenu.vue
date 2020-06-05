@@ -79,6 +79,11 @@
                    class="item">
         <span>Дистанционное обучение</span>
       </router-link>
+      <router-link to="/for-pupils"
+                   data-mobile
+                   class="item">
+        <span>Методическая копилка школьникам</span>
+      </router-link>
       <router-link to="/tourist-routes"
                    data-mobile
                    class="item">

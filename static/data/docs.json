@@ -209,5 +209,20 @@
 		"link": "https://drive.google.com/open?id=1kLRJ2LXfd6yRkGsJFoZkubRYGTlwbGg1",
 		"page": "documents",
 		"category": "act"
+	}, {
+		"name": "Методическое пособие по досугу детей",
+		"link": "https://drive.google.com/file/d/1rtgMa0FjAMWQ1Kys9G6Edb_20P1Lsz0b/view?usp=sharing",
+		"page": "pupils",
+		"category": "documents"
+	}, {
+		"name": "Что взять с собой в поход",
+		"link": "https://drive.google.com/file/d/17qhwbrngf8J9Wvhy-xDRbcvAry2USKFM/view?usp=sharing",
+		"page": "pupils",
+		"category": "documents"
+	}, {
+		"name": "Активные игры",
+		"link": "https://drive.google.com/file/d/1gJetCD5P5tmUa-betw5F552BGndlSjbc/view?usp=sharing",
+		"page": "pupils",
+		"category": "documents"
 	}
 ]
