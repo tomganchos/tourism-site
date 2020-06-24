@@ -1,5 +1,131 @@
 [
   {
+    "title": "Итоги конкурса листовок",
+    "date": "2020-06-22T00:00:00.000",
+    "description": "",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги конкурса листовок",
+        "link": "https://drive.google.com/file/d/1mQwKrJM52lXW94IBRPY-m4bvDxhmJSh2/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ]
+  },
+  {
+    "title": "Гринландия",
+    "date": "2020-06-18T00:00:00.000",
+    "description": "Всероссийский фестиваль авторской песни",
+    "results": false,
+    "links": [
+      {
+        "title": "Гринландия пресс-релиз 2020",
+        "link": "https://drive.google.com/file/d/13aHIwuWoYQBuQUlFs_6aXos3gPjUbqFc/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2006/4_p.jpg",
+        "full": "/static/images/news/2006/4_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "\"Фотоориентирование\"",
+    "date": "2020-06-15T00:00:00.000",
+    "description": "Состоялись online - соревнования по спортивному ориентированию \"Фотоориентирование\", в которых приняло участие 225 спортсменов.",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги фотоориентирования",
+        "link": "https://drive.google.com/file/d/1y0pVfZYXhbocVUCURdhXmFMofJDrQB3l/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Итоговый протокол фотоориентирования",
+        "link": "https://drive.google.com/file/d/1RwP1mHrTkErjxyt_Y-o-wJpCuF7aZSrO/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2006/3_p.jpg",
+        "full": "/static/images/news/2006/3_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "\"Знатоки родного края\"",
+    "date": "2020-06-15T00:00:00.000",
+    "description": "Внимание! Начинается интернет-викторина \"Знатоки родного края\". Переходим по ссылке и отвечаем на вопросы. Ответы принимаются  до 21 июня включительно.",
+    "results": false,
+    "links": [
+      {
+        "title": "Ссылка на викторину",
+        "link": "https://docs.google.com/forms/d/1ek_nDvB8Q0IzDO-FzBsAFj2TPtGsLzT54j5GW0plIa8/edit",
+        "type": "google"
+      }
+    ]
+  },
+  {
+    "title": "День России",
+    "date": "2020-06-12T00:00:00.000",
+    "description": "С Днём России!",
+    "results": false,
+    "images": [
+      {
+        "preview": "/static/images/news/2006/2_p.jpg",
+        "full": "/static/images/news/2006/2_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Семинар с белорусскими коллегами",
+    "date": "2020-06-11T00:00:00.000",
+    "description": "Псковский областной Центр детского и юношеского туризма и экскурсий совместно с белорусскими коллегами Полоцкого районного центра детей и молодежи 9 июня провели семинар на тему «Гражданско-патриотическое воспитание детей и молодежи: опыт, направления, современные формы». К семинару, который проходил в онлайн-режиме на платформе ZOOM, подключились более 130 педагогов из Псковской области и Республики Беларусь.",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги семинара с белорусами",
+        "link": "https://drive.google.com/file/d/1Khsv8bL4vCkZx_BESvFvRJ7fxZKBXHB7/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ]
+  },
+  {
+    "title": "Подведены итоги фотоконкурса \"Становится историей война\"",
+    "date": "2020-06-08T00:00:00.000",
+    "description": "Конкурс проводился по следующим номинациям: «Семейный альбом», «Оружие Победы», «Победители», «Наследники Победы», «Псков и Великие Луки – города воинской славы». Оргкомитет авторов  лучших работ наградит грамотами.",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги фотоконкурса",
+        "link": "https://drive.google.com/file/d/1LJFdI9G1d28kKNDLca-qQU9yvUtNzWVa/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ]
+  },
+  {
+    "title": "Итоги конкурса видеороликов \"Нет в России семьи такой, где б не памятен был свой герой\"",
+    "date": "2020-06-07T00:00:00.000",
+    "description": "Подведены итоги конкурса видеороликов \"Нет в России семьи такой, где б не памятен был свой герой\". В конкурсе были обозначены 2 темы: 75 лет Великой Победе и 20-летие подвигу Героев-десантников 6 роты. Мы благодарим всех участников за интересные, оригинальные, а главное- трогательные видео.",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги конкурса видеороликов",
+        "link": "https://drive.google.com/file/d/1OlFSCciUtwE4eLsXjbG7SHkOaRkyl0G2/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2006/1_p.jpg",
+        "full": "/static/images/news/2006/1_f.jpg"
+      }
+    ]
+  },
+  {
     "title": "Онлайн-соревнования «Фотоориентирование» начинаются!",
     "date": "2020-06-06T00:00:00.000",
     "description": "Внимание! 5 июня с 9.00 начинаются онлайн-соревнования \"Фотоориентирование\"",

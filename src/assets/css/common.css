@@ -85,3 +85,10 @@ h3 {
   border-radius: 15px;
   object-fit: cover;
 }
+
+.ui.medium.header {
+  font-size: 130%;
+}
+.ui.menu {
+  font-size: 100%;
+}

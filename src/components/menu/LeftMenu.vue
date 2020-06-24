@@ -1,14 +1,13 @@
 <template>
     <nav class="ui left vertical menu"
-         @click="setMobileMenu()"
-         :class="specialVision">
+         @click="setMobileMenu()">
       <router-link to="/" class="item"
                    data-mobile
                    style="text-align: -webkit-center">
         <img src="/static/images/logo/logoTurizm.png" height="150" alt="Logotype">
       </router-link>
       <a class="item" @click="changeView()">
-        <i class="low vision icon"></i><span style="padding-left: 10px">{{specialVisionBtn}}</span>
+        <i class="low vision icon"></i><span style="padding-left: 10px">{{ specialViewBtn }}</span>
       </a>
       <div class="ui accordion">
         <a class="title item">
@@ -178,40 +177,47 @@
   import { mapGetters, mapActions } from 'vuex'
   export default {
     name: "LeftMenu",
+    props: [ 'specialView' ],
     data() {
       return {
-        // TODO: VUEX Vision
-        specialVisionBtn: 'Версия для слабовидящих',
-        specialVision: null
+        specialViewBtn: 'Версия для слабовидящих',
+        specialVision: false
       }
     },
 
-    computed: {
-      ...mapGetters(['getView'])
-    },
+    // computed: {
+    //   ...mapGetters(['getView'])
+    // },
 
     mounted() {
       $('.ui.accordion')
         .accordion()
       ;
-      this.specialVision = this.getView;
-      console.log(this.specialVision);
+      // this.specialView = this.getView;
+      console.log('leftMenu: %o', this.specialView);
+      this.specialVision = this.specialView
+      console.log('specialVision: %o', this.specialVision)
+      if (this.specialVision) {
+        this.specialViewBtn = 'Обычная версия'
+      } else {
+        this.specialViewBtn = 'Версия для слабовидящих'
+      }
     },
     methods: {
       changeView: function() {
         console.log(this.specialVision);
         this.specialVision = !this.specialVision;
         console.log(this.specialVision);
-        this.setView(this.specialVision);
         if (this.specialVision) {
-          this.specialVisionBtn = 'Версия для слабовидящих'
+          this.specialViewBtn = 'Обычная версия'
         } else {
-          this.specialVisionBtn = 'Обычная версия'
+          this.specialViewBtn = 'Версия для слабовидящих'
         }
+        this.$emit('change-special-view', this.specialVision)
       },
-      ...mapActions({
-        setView: 'setView'
-      }),
+      // ...mapActions({
+      //   setView: 'setView'
+      // }),
       routeTo: function(self) {
         console.log('self');
         console.log(self);
@@ -291,9 +297,4 @@
   .ui.accordion .title.item:not(.ui) {
     padding: 10px !important;
   }
-  .special-view a.item span,
-  .special-view a.item span {
-    font-size: 130%;
-  }
-
 </style>

@@ -1,15 +1,15 @@
 <template>
-  <div id="app">
+  <div id="app" :class="{ 'special-view': specialView }">
     <div class="big-container">
       <div class="mobile-version visible-xs">
         <div class="mobile-menu">
-          <left-menu @mobileMenu="toggleMenu()"/>
+          <left-menu :special-view="specialView" @change-special-view="changeSpecialView" @mobileMenu="toggleMenu()"/>
         </div>
       </div>
 
       <div>
         <div class="hidden-xs block-menu">
-          <left-menu/>
+          <left-menu :special-view="specialView" @change-special-view="changeSpecialView" />
         </div>
         <div class="visible-sm block-menu" v-if="displayWidth >= 768 && displayWidth < 992">
           <right-menu/>
@@ -51,8 +51,18 @@ export default {
   data () {
     return {
       header: '',
-      displayWidth: window.innerWidth
+      displayWidth: window.innerWidth,
+      specialView: false
     }
+  },
+  created() {
+    console.log(window.localStorage.getItem('special_view'))
+    if (window.localStorage.getItem('special_view')) {
+      this.specialView = window.localStorage.getItem('special_view') === 'true'
+    } else {
+      window.localStorage.setItem('special_view', this.specialView)
+    }
+    console.log('specialView %o', this.specialView)
   },
   updated() {
     this.displayWidth = window.innerWidth
@@ -67,6 +77,11 @@ export default {
     },
     setHeader: function (data) {
       this.header = data.label
+    },
+    changeSpecialView (value) {
+      console.log(value)
+      this.specialView = value
+      window.localStorage.setItem('special_view', this.specialView)
     }
   }
 }
@@ -165,6 +180,24 @@ export default {
     color: #204d74 !important;
     white-space: nowrap;
     overflow: hidden;
+  }
+  .special-view#app {
+    font-size: 130%;
+  }
+  .special-view#app .ui.medium.header {
+    font-size: 160%;
+  }
+  .special-view#app .ui.menu {
+    font-size: 100%;
+  }
+  .special-view#app .ui.tab.segment {
+    font-size: 90%;
+  }
+  .special-view#app .ui.segment.body {
+    font-size: 95%;
+  }
+  .special-view#app .ui.segment.link {
+    font-size: 100%;
   }
 
 </style>
