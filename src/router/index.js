@@ -27,6 +27,7 @@ import MaterialTechProvisionPage from "@/components/MaterialTechProvisionPage";
 import PaidEducationServicesPage from "@/components/PaidEducationServicesPage";
 import DistanceLearningPage from "@/components/DistanceLearningPage";
 import ForPupilsPage from "@/components/ForPupilsPage";
+import FinancialEconomicActivityPage from "@/components/FinancialEconomicActivityPage";
 
 Vue.use(Router);
 
@@ -97,6 +98,11 @@ export default new Router({
       path: '/paid-education-services',
       name: 'PaidEducationServicesPage',
       component: PaidEducationServicesPage
+    },
+    {
+      path: '/financial-economic-activity',
+      name: 'FinancialEconomicActivityPage',
+      component: FinancialEconomicActivityPage
     },
     {
       path: '/distance-learning',

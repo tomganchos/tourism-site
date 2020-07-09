@@ -17,19 +17,19 @@
           </div>
         </div>
       </div>
-      <div class="text-block">
-        <div><h2>Планы финансово-хозяйственной деятельности:</h2></div>
-        <div class="ui relaxed divided list">
-          <div class="item" v-for="item in finance">
-            <div class="item-icon">
-              <i class="file alternate outline icon"></i>
-            </div>
-            <div class="content">
-              <a class="header" :href="item.link" target="_blank" rel="noopener">{{item.name}}</a>
-            </div>
-          </div>
-        </div>
-      </div>
+<!--      <div class="text-block">-->
+<!--        <div><h2>Планы финансово-хозяйственной деятельности:</h2></div>-->
+<!--        <div class="ui relaxed divided list">-->
+<!--          <div class="item" v-for="item in finance">-->
+<!--            <div class="item-icon">-->
+<!--              <i class="file alternate outline icon"></i>-->
+<!--            </div>-->
+<!--            <div class="content">-->
+<!--              <a class="header" :href="item.link" target="_blank" rel="noopener">{{item.name}}</a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
       <div class="text-block">
         <div><h2>Отчёты о результатах самообследования:</h2></div>
         <div class="ui relaxed divided list">

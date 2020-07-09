@@ -61,9 +61,9 @@
                          class="sub-item">
               <span>Платные образовательные услуги</span>
             </router-link>
-<!--            <router-link to="/financial-economic-activity" class="sub-item">-->
-<!--              <span>Финансово-хозяйственная деятельность</span>-->
-<!--            </router-link>-->
+            <router-link to="/financial-economic-activity" class="sub-item">
+              <span>Финансово-хозяйственная деятельность</span>
+            </router-link>
             <router-link to="/vacancies"
                          data-mobile
                          class="sub-item">

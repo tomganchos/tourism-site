@@ -7,7 +7,7 @@
       <div class="ui secondary menu">
         <a class="item active" data-tab="administration">Администрация</a>
         <a class="item" data-tab="personal">Сотрудники</a>
-<!--        <a class="item" data-tab="staff">Педагогический состав</a>-->
+        <a class="item" data-tab="staff">Педагогический состав</a>
       </div>
       <div class="ui active tab" data-tab="administration">
         <div class="ui segment">
@@ -216,6 +216,19 @@
             детского и юношеского туризма и экскурсий с 2002 года. Образование высшее.</div>
           <div class="text-block">Награждена Грамотами Государственного управления образования Псковской
             области, Федерального Центра детско-юношеского туризма и краеведения.
+          </div>
+        </div>
+      </div>
+
+      <div class="ui tab" data-tab="staff">
+        <div class="ui segment body">
+          <div class="item">
+            <div class="item-icon">
+              <i class="file alternate outline icon"/>
+            </div>
+            <div class="content">
+              <a class="header" href="https://drive.google.com/file/d/15kPxNFLaSeA-5PMA07uJ3ryTfo9L4Wt7/view?usp=sharing" target="_blank" rel="noopener">Педагогический состав на 2020г.</a>
+            </div>
           </div>
         </div>
       </div>
