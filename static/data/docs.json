@@ -5,8 +5,13 @@
 		"page": "documents",
 		"category": "common"
 	}, {
+    "name": "Изменение в Устав",
+		"link": "https://drive.google.com/file/d/1My8ELAI1_YHOZA5jpB57UcDnXyYvFE29/view?usp=sharing",
+		"page": "documents",
+		"category": "common"
+	}, {
 		"name": "Лицензия",
-		"link": "https://drive.google.com/file/d/0B4Y-eduzf4rjWnI3VlZiTVVwakU/view",
+		"link": "https://drive.google.com/file/d/1-aVXMis0pJCTNjh65lHxl6YLq9x6diGp/view?usp=sharing",
 		"page": "documents",
 		"category": "common"
 	}, {
@@ -35,6 +40,11 @@
 		"page": "documents",
 		"category": "finance"
 	}, {
+		"name": "План ФХД на 2020",
+		"link": "https://drive.google.com/file/d/1u52wxqV8vBexmco6NhA1tHcqBZ-zHXIj/view?usp=sharing",
+		"page": "documents",
+		"category": "finance"
+	}, {
 		"name": "Отчёт о результатах самообследования за 2017",
 		"link": "https://drive.google.com/open?id=1XI2ksBoO8Bx0r1Tmnj_a4Wj9IYbsHMPz",
 		"page": "documents",
@@ -46,7 +56,7 @@
 		"category": "self"
 	}, {
 		"name": "Отчёт о результатах самообследования за 2019",
-		"link": "https://drive.google.com/open?id=1YFHwkVTnz2tQk8EiKZpNRJ4K00ruGgOL",
+		"link": "https://drive.google.com/file/d/1pz2JUBVrO1L6xKgL9zcKGiOg6Xzxcegb/view?usp=sharing",
 		"page": "documents",
 		"category": "self"
 	}, {
@@ -67,6 +77,11 @@
 	}, {
 		"name": "Предписания органов, осуществляющих государственный контроль в сфере образования,отчёты об исполнении таких предписаний",
 		"link": "https://drive.google.com/open?id=1AvKdW6wQg2PJbWVMhUkyc5HHsA6LIcby",
+		"page": "documents",
+		"category": "control"
+	}, {
+		"name": "Приказ Исполнение обязанностей",
+		"link": "https://drive.google.com/file/d/1B4vXFsBYgd0dbG04uhv0ZdDJLP06-a7u/view?usp=sharing",
 		"page": "documents",
 		"category": "control"
 	}, {

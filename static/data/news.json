@@ -1,5 +1,52 @@
 [
   {
+    "title": "Итоги мероприятий!",
+    "date": "2020-07-03T00:00:00.000",
+    "description": "Друзья! В июне мы провели несколько мероприятий для школьников в рамках \"Туриады-2020\". Спасибо всем за активность, несмотря на непростую эпидемиологическую ситуацию в регионе. Поздравляем победителей и призеров конкурсов. Желаем жаркого лета, хорошего настроения  и всем здоровья!",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги конкурса \"Псковская земля. История. Памятники.Люди\"",
+        "link": "https://drive.google.com/file/d/1p7cRXM2bcEynORNANPmnRoukAvrAcs3b/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Итоги интернет-викторины \"Знатоки родного края\"",
+        "link": "https://drive.google.com/file/d/1wFVeEbFfwOzfmpCyGbVKvBt6Fq6owrPr/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Итоги конкурса на знание государственных и региональных символов Р.Ф.",
+        "link": "https://drive.google.com/file/d/1p7cRXM2bcEynORNANPmnRoukAvrAcs3b/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ]
+  },
+  {
+    "title": "Рыбалка- это клёво!",
+    "date": "2020-07-01T00:00:00.000",
+    "description": "Уважаемые педагоги, студенты, школьники! С 1 июля начинаются соревнования по летней рыбалке \"Рыбалка- это клёво!\" Мы предлагаем много номинаций, где можно участвовать целыми семьями. А до 1 сентября ждем отчеты с фотографиями о ваших успехах в этом романтическом увлечении. Подробности  в положении. Ждём любителей рыбной ловли и с других регионов и государств.",
+    "results": false,
+    "links": [
+      {
+        "title": "Положение о рыбалке",
+        "link": "https://drive.google.com/file/d/1iMY2zviePgCg1J0HtvdYoFjJj_RhOieA/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Письмо 173",
+        "link": "https://drive.google.com/file/d/1BUPt5aGLlBX11OgoBb4Zs5nXaHhElq2l/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2007/1_p.jpg",
+        "full": "/static/images/news/2007/1_f.jpg"
+      }
+    ]
+  },
+  {
     "title": "Итоги конкурса листовок",
     "date": "2020-06-22T00:00:00.000",
     "description": "",
