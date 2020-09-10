@@ -227,7 +227,7 @@
               <i class="file alternate outline icon"/>
             </div>
             <div class="content">
-              <a class="header" href="https://drive.google.com/file/d/15kPxNFLaSeA-5PMA07uJ3ryTfo9L4Wt7/view?usp=sharing" target="_blank" rel="noopener">Педагогический состав на 2020г.</a>
+              <a class="header" href="https://drive.google.com/file/d/1b6qjhhJPxkJDkShfU48wPRmMov0JP4ua/view?usp=sharing" target="_blank" rel="noopener">Педагогический состав на 01.05.2020</a>
             </div>
           </div>
         </div>
