@@ -1,5 +1,93 @@
 [
   {
+    "year": "2020-2021",
+    "programs": [
+      {
+        "label": "Станция туристическая. Педагог Лукьянова Я.Ю.",
+        "link": "https://drive.google.com/file/d/1MtFf4cQmQDOIqF1c2WXRMshSR-Sauga4/view?usp=sharing"
+      },
+      {
+        "label": "Станция туристическая. Описание программы",
+        "link": "https://drive.google.com/file/d/15dC3_sfwAAFI9AOmenncxUEUBqQ3_OWV/view?usp=sharing"
+      },
+      {
+        "label": "Техника пешеходного туризма. Лукьянова Я.Ю.",
+        "link": "https://drive.google.com/file/d/1NzTRCzHij7A8VtNuJ3lxAzW088yGdTje/view?usp=sharing"
+      },
+      {
+        "label": "Техника пешеходного туризма. Описание программы",
+        "link": "https://drive.google.com/file/d/1aTxcY5TdJP7XnsxKjQO7NGQPAqvgeqDJ/view?usp=sharing"
+      },
+      {
+        "label": "Юный турист-ориентировщик Педагог Смуров В.А. 3 часа",
+        "link": "https://drive.google.com/file/d/1ymAhzlt76eQ8z8sWCB5f4o2EBqyh_aLB/view?usp=sharing"
+      },
+      {
+        "label": "Юный турист-ориентировщик 3 часа. Описание программы",
+        "link": "https://drive.google.com/file/d/1KWwFmD0EMNQ62ExkhmFoPty2ryxbiL9P/view?usp=sharing"
+      },
+      {
+        "label": "Юный турист-ориентировщик Педагог Смуров В.А. 6 часов",
+        "link": "https://drive.google.com/file/d/1a4JzRaPlxUwyiXtCENe5fm5OJt34YrLD/view?usp=sharing"
+      },
+      {
+        "label": "Юный турист-ориентировщик 6 часов. Описание программы",
+        "link": "https://drive.google.com/file/d/1Gs0CBdI1T4Nu6bS2d2nIazk3hop0u9Mc/view?usp=sharing"
+      },
+      {
+        "label": "Юные экскурсоводы Пскова. Педагог Баштырева С.В.",
+        "link": "https://drive.google.com/file/d/1aAF2btE4oqoHkZq93ccvqyjYRvPcHeaq/view?usp=sharing"
+      },
+      {
+        "label": "Юные экскурсоводы Пскова. Описание программы",
+        "link": "https://drive.google.com/file/d/15d2DAW510gsvdJpsiyUe3WT8DLGB1RVE/view?usp=sharing"
+      },
+      {
+        "label": "Моя малая Родина. Бойкова О.В.",
+        "link": "https://drive.google.com/file/d/1AcH-8SzOKqXxuM1-0b_AayDpWzs0iRfF/view?usp=sharing"
+      },
+      {
+        "label": "Моя малая Родина. Описание программы",
+        "link": "https://drive.google.com/file/d/1A_YBuWFMDUz_dlD-sVeSC4rcS2y_OAr0/view?usp=sharing"
+      },
+      {
+        "label": "Пскововедение. Педагог Шершеневич А.В.",
+        "link": "https://drive.google.com/file/d/1nDfN6bE9TfHnTe45DID6KgtQOvQ2zrsC/view?usp=sharing"
+      },
+      {
+        "label": "Пскововедение. Описание программы",
+        "link": "https://drive.google.com/file/d/1_IeR1biUE8AL17PNRN3qBgf5z-yKjM9q/view?usp=sharing"
+      },
+      {
+        "label": "Школа экскурсовода. Педагог Иманова Я.А.",
+        "link": "https://drive.google.com/file/d/1AXqgKDESwON2DP_shgPYr04BjeWWAdXp/view?usp=sharing"
+      },
+      {
+        "label": "Школа экскурсовода. Описание программы",
+        "link": "https://drive.google.com/file/d/1DPAYeyMMhi2TJa4g-76kpv5u9buIOhVS/view?usp=sharing"
+      }
+    ],
+    "common": [
+      {
+        "label": "Расписание занятий",
+        "link": "https://drive.google.com/file/d/1IJiMmFf0uY8xRYvkBcbws5ZrNDrYbiUQ/view?usp=sharing"
+      },
+      {
+        "label": "Календарный учебный график",
+        "link": "https://drive.google.com/file/d/1b04Mi8-xY0Vey9od3aWnAn9fjzi9JQqJ/view?usp=sharing"
+      },
+      {
+        "label": "Учебный план",
+        "link": "https://drive.google.com/file/d/1q5sQ4oTpL-Uu3REpil5ll2CIogbxFFlT/view?usp=sharing"
+      },
+      {
+        "label": "Перечень программ",
+        "link": "https://drive.google.com/file/d/1WX7CZUWZrlRkPdBMeu4_QnsnkndNbfwD/view?usp=sharing"
+      }
+    ],
+    "achievements": []
+  },
+  {
     "year": "2019-2020",
     "programs": [
       {
@@ -8,7 +96,7 @@
       },
       {
         "label": "Достойные потомки. Описание программы",
-        "link": "https://drive.google.com/file/d/19R48Oyd2s5ZodTaBcrUC2Pwy8LGUuNlz/view?usp=sharing"
+        "link": "https://drive.google.com/file/d/15y1CZpymUNAcTz9lTjEtvMP7EDuiRcB_/view?usp=sharing"
       },
       {
         "label": "Юный турист-ориентировщик. Смуров",
@@ -16,7 +104,7 @@
       },
       {
         "label": "Юный турист-ориентировщик. Описание программы",
-        "link": "https://drive.google.com/file/d/1Wv0mzlDnEHs5JktfQdIfkZiWe2PxZuXN/view?usp=sharing"
+        "link": "https://drive.google.com/file/d/1HGq93AYehMZphKDXQLr-qE19e9SFJkOp/view?usp=sharing"
       },
       {
         "label": "Юный экскурсовод. Баштырева",
@@ -24,7 +112,7 @@
       },
       {
         "label": "Юный экскурсовод. Описание программы",
-        "link": "https://drive.google.com/file/d/1OnJEmdPzXwrO_Yl8pHrHfqIPyBk_yycM/view?usp=sharing"
+        "link": "https://drive.google.com/file/d/1xXRg5KXnA-tMJtKEGA6XxNFY6eKRw5By/view?usp=sharing"
       },
       {
         "label": "Моя малая Родина. Бойкова",
@@ -32,7 +120,7 @@
       },
       {
         "label": "Моя малая Родина. Описание программы",
-        "link": "https://drive.google.com/file/d/1CU9YBxvm7bRN3uXITo_v8tsT0rxm9uH7/view?usp=sharing"
+        "link": "https://drive.google.com/file/d/1zz-pQUMBKFLXF0psaA11w4H_ImVQDhX0/view?usp=sharing"
       },
       {
         "label": "Техника пешеходного туризма. Лукьянова",
@@ -40,7 +128,7 @@
       },
       {
         "label": "Техника пешеходного туризма. Описание программы",
-        "link": "https://drive.google.com/file/d/1uUrWxri46VysAFMi27C8gVGChz87WXC6/view?usp=sharing"
+        "link": "https://drive.google.com/file/d/1rViNHmERGDluF6EYCVMySt1VmWQ2h9De/view?usp=sharing"
       }
     ],
     "common": [
@@ -150,7 +238,7 @@
         "link": "https://drive.google.com/file/d/1Dz2kvGDuzG8rvM2HXazbeaDj8HZA-Mx-/view?usp=sharing"
       },
       {
-        "label": "Решение городской думы. Смурнов",
+        "label": "Решение городской думы. Смуров",
         "link": "https://drive.google.com/file/d/1ONb7lY_MJoiTekKfW4W4JgDyf8lAKu-l/view?usp=sharing"
       }
     ],

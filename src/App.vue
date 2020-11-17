@@ -33,7 +33,7 @@
       </div>
     </div>
 
-    <div class="footer">Псков, 2019</div>
+    <div class="footer">Псков</div>
   </div>
 </template>
 
