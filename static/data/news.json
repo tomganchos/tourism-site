@@ -1,5 +1,189 @@
 [
   {
+    "title": "Туриада-2021",
+    "date": "2020-12-28T00:00:00.000",
+    "description": "К вашему вниманию сборник положений на 2021 год \"Туриада-2021\". Приглашаем к активному участию в наших туристско-краеведческих мероприятиях школьников, студентов и педагогических работников.",
+    "results": false,
+    "links": [
+      {
+        "title": "Приказ о проведении Туриады 2021",
+        "link": "https://drive.google.com/file/d/1lR8IMctUqJlnmyD_aZ70jhoAvgGWvxA6/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Календарь массовых мероприятий на 2021 год",
+        "link": "https://drive.google.com/file/d/1rYdqP9fUEigDjQ0PAiBfgfpOmU7bjzVR/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Положение о Туриаде 2021",
+        "link": "https://drive.google.com/file/d/16Lkq0-1k9JxUxEv3lX8OHbo3NE4ZbRq-/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2012/11_p.jpg",
+        "full": "/static/images/news/2012/11_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Благодарность",
+    "date": "2020-12-25T00:00:00.000",
+    "description": "Благодарность нашему Центру  от и.п.Главы Администрации города Пскова А.В.Коновалова.  Спасибо Комитету по реализации программ приграничного сотрудничества и туризму Администрации города Пскова за высокую оценку нашей работы.",
+    "results": false,
+    "links": [],
+    "images": [
+      {
+        "preview": "/static/images/news/2012/10_p.jpg",
+        "full": "/static/images/news/2012/10_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Люди идут по свету",
+    "date": "2020-12-23T00:00:00.000",
+    "description": "Подведены итоги туристско-краеведческого конкурса \"Люди идут по свету\"",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги конкурса",
+        "link": "https://drive.google.com/file/d/1ealnAyYxSVznCXWXVc6wOEI0KXy3Hr7-/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ]
+  },
+  {
+    "title": "Итоги Отечества",
+    "date": "2020-12-18T00:00:00.000",
+    "description": "Псковский областной Центр детского и юношеского туризма и экскурсий провёл региональный конкурс исследовательских краеведческих работ учащихся «Отечество». На конкурс поступило 63 исследовательские работы юных краеведов из районов и городов Псковской области.\nПроходило на платформе Zoom. В рамках конкурса работали 6 секций по разным направлениям: «Военная история. Великая Победа», «Летопись родного края», «Культурное наследие. Этнография», «Родословие. Земляки», «Экология. Природное наследие» и «Православное краеведение».",
+    "results": true,
+    "links": [
+      {
+        "title": "Приказ Отечество",
+        "link": "https://drive.google.com/file/d/1M_RtIFB1dqfckuWgHi4YMPfD5gwwSruh/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Протокол секции Культурное наследие. Этнография",
+        "link": "https://drive.google.com/file/d/1Fus4C2m9aniZyWlWEAL_DM7gm-fdE0qW/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Протокол секции Летопись родного края",
+        "link": "https://drive.google.com/file/d/152NUg02OVb2ZaS4TC_fqfdHwwmbFFzUt/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Протокол секции Православное краеведение",
+        "link": "https://drive.google.com/file/d/16IRQaAgXBpsZNfdGgiRu1RPNl1YnRkNW/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Протокол секции Экология. Природное наследие",
+        "link": "https://drive.google.com/file/d/1q68BvY2Z0E0q6QBJmWm_NIjAff7Qb82A/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Протокол секции Родословие. Земляки",
+        "link": "https://drive.google.com/file/d/1PNx7ZFEbEUfyLpf1DnP3LI-boBfNWwkW/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Протокол секции Военная история",
+        "link": "https://drive.google.com/file/d/14Kkf927G49SsaSTrMDHVTJnxcq21hkAG/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2012/8_p.jpg",
+        "full": "/static/images/news/2012/8_f.jpg"
+      },
+      {
+        "preview": "/static/images/news/2012/9_p.jpg",
+        "full": "/static/images/news/2012/9_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Документально-просветительский фильм \"Общая память\"",
+    "date": "2020-12-16T00:00:00.000",
+    "description": "Лига молодежи Псковской области на средства Фонда Президентских Грантов создала документально-просветительский фильм \"Общая память\". Фильм рассказывает о деятельности псковских волонтеров по реализации патриотических проектов на территориях стран Литвы и Латвии.Фильм вошел в тройку лучших проектов страны в номинации \"Гражданский долг\" конкурса \"Мой проект - моей стране\", проводимым Общественной палатой РФ.\nПриглашаем к просмотру!",
+    "results": false,
+    "links": [
+      {
+        "title": "Общая память",
+        "link": "https://vk.com/club43893537?z=video-43893537_456239042%2Fb3cd7eb030f2e2213c%2Fpl_wall_-43893537",
+        "type": "vk"
+      }
+    ]
+  },
+  {
+    "title": "Благодарность",
+    "date": "2020-12-14T00:00:00.000",
+    "description": "",
+    "results": false,
+    "images": [
+      {
+        "preview": "/static/images/news/2012/7_p.jpg",
+        "full": "/static/images/news/2012/7_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Итоги турслёта в дистанционном формате",
+    "date": "2020-12-11T00:00:00.000",
+    "description": "С 23 по 30 ноября прошел турслет в дистанционном формате. В слете участвовало 18 команд.Победителем в общем зачете стала команда из города Пскова.",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги турслёта",
+        "link": "https://drive.google.com/file/d/1aeUceHG8if-7TbeWQmPNgkMTH21VNMAh/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Итоговый протокол Турслёт 2020",
+        "link": "https://drive.google.com/file/d/1NtdATtszZH1JzxZ6ZsaOuI6jgpuJZSfd/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2012/5_p.jpg",
+        "full": "/static/images/news/2012/5_f.jpg"
+      },
+      {
+        "preview": "/static/images/news/2012/6_p.jpg",
+        "full": "/static/images/news/2012/6_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Слёт активистов школьных музеев",
+    "date": "2020-12-10T00:00:00.000",
+    "description": "Псковский областной Центр детского и юношеского туризма и экскурсий 3 декабря 2020 года в дистанционном формате провел областной слет активистов школьных музеев.В проведении Слета приняли участие коллеги из ГБОУ ДО Ярославской области «Центр детского и юношеского туризма и экскурсий».\nПредставители Ярославского центра рассказали как создать одностраничный сайт школьного музея, использовать лонгрид сайта музея в системе SWAY, поделились инструкцией использования этой программы.",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги слёта",
+        "link": "https://drive.google.com/file/d/1pidKxj4egrFkm1rNIwN13g_FY4mSLyto/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2012/3_p.jpg",
+        "full": "/static/images/news/2012/3_f.jpg"
+      },
+      {
+        "preview": "/static/images/news/2012/4_p.jpg",
+        "full": "/static/images/news/2012/4_f.jpg"
+      }
+    ]
+  },
+  {
     "title": "Финал конкурса  на лучшего экскурсовода \"Люби и знай свой край родной\"",
     "date": "2020-12-03T00:00:00.000",
     "description": "Состоялся финал конкурса  на лучшего экскурсовода \"Люби и знай свой край родной\", в котором приняли участие 39 обучающихся в 3 номинациях.\nВ состав Оргкомитета Конкурса вошли сотрудники Центра туризма, представители туристической фирмы. Конкурс нацелен на раскрытие коммуникативного потенциала обучающихся. Одним из главных критериев оценки жюри была правильность речи участников, содержательная и эмоциональная сторона экскурсии.",
@@ -13,12 +197,12 @@
     ],
     "images": [
       {
-        "preview": "/static/images/news/2011/6_p.jpg",
-        "full": "/static/images/news/2011/6_f.jpg"
+        "preview": "/static/images/news/2012/1_p.jpg",
+        "full": "/static/images/news/2012/1_f.jpg"
       },
       {
-        "preview": "/static/images/news/2011/7_p.jpg",
-        "full": "/static/images/news/2011/7_f.jpg"
+        "preview": "/static/images/news/2012/2_p.jpg",
+        "full": "/static/images/news/2012/2_f.jpg"
       }
     ]
   },

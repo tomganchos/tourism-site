@@ -368,5 +368,29 @@
         "month": true
       }
     ]
+  },
+  {
+    "year": 2021,
+    "docs": [
+      {
+        "title": "Календарь массовых мероприятий на 2021 год",
+        "link": "https://drive.google.com/file/d/1rYdqP9fUEigDjQ0PAiBfgfpOmU7bjzVR/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Приказ о проведении Туриады 2021",
+        "link": "https://drive.google.com/file/d/1lR8IMctUqJlnmyD_aZ70jhoAvgGWvxA6/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Положение о Туриаде 2021",
+        "link": "https://drive.google.com/file/d/16Lkq0-1k9JxUxEv3lX8OHbo3NE4ZbRq-/view?usp=sharing",
+        "type": "file alternate outline"
+      }, {
+        "name": "План на январь",
+        "link": "https://drive.google.com/open?id=1Lg6aZi7dQ_bxZr7ss98_2HOIYJSW9B1p",
+        "month": true
+      }
+    ]
   }
 ]
