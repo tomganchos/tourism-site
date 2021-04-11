@@ -16,6 +16,14 @@
               <a class="header" href="https://drive.google.com/file/d/0B4Y-eduzf4rjdExQdnpKb09heWs/view?usp=sharing" target="_blank" rel="noopener">Памятка по паспортизации школьного музея</a>
             </div>
           </div>
+          <div class="item">
+            <div class="item-icon">
+              <i class="file alternate outline icon"></i>
+            </div>
+            <div class="content">
+              <a class="header" href="https://drive.google.com/file/d/1YnZx8exJ7_OpbHP-ZnxtwT8NReOc-gYd/view?usp=sharing" target="_blank" rel="noopener">Экскурсии</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -27,7 +35,7 @@
     name: "MuseumAboutEducationPage",
     data() {
       return {
-        header: 'Методическая библиотека',
+        header: 'Музей истории народного образования Псковской области',
       }
     },
     beforeMount() {

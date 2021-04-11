@@ -373,22 +373,34 @@
     "year": 2021,
     "docs": [
       {
-        "title": "Календарь массовых мероприятий на 2021 год",
+        "name": "Приказ о проведении Туриады 2021",
+        "link": "https://drive.google.com/file/d/1W2BEvxfhly2T_cPCxmkLJdgBPI5oheri/view?usp=sharing",
+        "month": false
+      },
+      {
+        "name": "Календарь массовых мероприятий на 2021 год",
         "link": "https://drive.google.com/file/d/1rYdqP9fUEigDjQ0PAiBfgfpOmU7bjzVR/view?usp=sharing",
-        "type": "file alternate outline"
+        "month": false
       },
       {
-        "title": "Приказ о проведении Туриады 2021",
-        "link": "https://drive.google.com/file/d/1lR8IMctUqJlnmyD_aZ70jhoAvgGWvxA6/view?usp=sharing",
-        "type": "file alternate outline"
-      },
-      {
-        "title": "Положение о Туриаде 2021",
-        "link": "https://drive.google.com/file/d/16Lkq0-1k9JxUxEv3lX8OHbo3NE4ZbRq-/view?usp=sharing",
-        "type": "file alternate outline"
+        "name": "Положение о Туриаде 2021",
+        "link": "https://drive.google.com/file/d/1wYez8E6PBNijM5QRi5ZHXqjns5s4iyPx/view?usp=sharing",
+        "month": false
       }, {
         "name": "План на январь",
-        "link": "https://drive.google.com/open?id=1Lg6aZi7dQ_bxZr7ss98_2HOIYJSW9B1p",
+        "link": "https://drive.google.com/file/d/1qYg1fsD1935dkXlMfluz5uyFSHYV8zH6/view?usp=sharing",
+        "month": true
+      }, {
+        "name": "План на февраль",
+        "link": "https://drive.google.com/file/d/1c0EfhEOsRGren2HAkRJjTAFhPgWI8_We/view?usp=sharing",
+        "month": true
+      }, {
+        "name": "План на март",
+        "link": "https://drive.google.com/file/d/1hftLZmvxpoIUj5MpIcHQV00FAqLEdteh/view?usp=sharing",
+        "month": true
+      }, {
+        "name": "План на апрель",
+        "link": "https://drive.google.com/file/d/1isUndEDV7JSlYnl0y3btgI94SYnH2Gwr/view?usp=sharing",
         "month": true
       }
     ]

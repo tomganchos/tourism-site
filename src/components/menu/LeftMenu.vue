@@ -69,6 +69,16 @@
                          class="sub-item">
               <span>Вакантные места для приёма (перевода)</span>
             </router-link>
+            <router-link to="/accessible-environment"
+                         data-mobile
+                         class="sub-item">
+              <span>Доступная среда</span>
+            </router-link>
+            <router-link to="/international-cooperation"
+                         data-mobile
+                         class="sub-item">
+              <span>Международное сотрудничество</span>
+            </router-link>
           </p>
         </div>
       </div>

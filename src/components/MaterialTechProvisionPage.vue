@@ -13,7 +13,7 @@
               <i class="file alternate outline icon"></i>
             </div>
             <div class="content">
-              <a class="header" href="https://drive.google.com/open?id=19o31np2TnQsxv71MXWVfFUKqWPb28kKP" target="_blank" rel="noopener">Материально-техническое обеспечение и оснащенность образовательного процесса</a>
+              <a class="header" href="https://drive.google.com/file/d/1KjMpKWAjVzcYXYfUXZ7OY1WRj50McHHC/view?usp=sharing" target="_blank" rel="noopener">Материально-техническое обеспечение и оснащенность образовательного процесса</a>
             </div>
           </div>
         </div>

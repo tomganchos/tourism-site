@@ -23,7 +23,7 @@
         <h3>Электронная почта: </h3><a href="mailto:org608@pskovedu.ru">org608@pskovedu.ru</a>
       </div>
       <div class="text-block">
-        <h3>Директор: </h3><span>Григорьев Владимир Михайлович, <a href="tel:88112576084">8 (8112) 57-60-84</a></span>
+        <h3>И.о.директора: </h3><span>Крючкова Татьяна Николаевна, <a href="tel:88112576084">8 (8112) 57-60-84</a></span>
       </div>
       <div class="text-block">
         <div><h2>Документы:</h2></div>

@@ -28,6 +28,8 @@ import PaidEducationServicesPage from "@/components/PaidEducationServicesPage";
 import DistanceLearningPage from "@/components/DistanceLearningPage";
 import ForPupilsPage from "@/components/ForPupilsPage";
 import FinancialEconomicActivityPage from "@/components/FinancialEconomicActivityPage";
+import AccessibleEnvironmentPage from "@/components/AccessibleEnvironmentPage";
+import InternationalCooperationPage from "@/components/InternationalCooperationPage";
 
 Vue.use(Router);
 
@@ -39,16 +41,16 @@ export default new Router({
       name: 'NewsPage',
       component: NewsPage
     },
-    {
-      path: '/left',
-      name: 'LeftMenu',
-      component: LeftMenu
-    },
-    {
-      path: '/right',
-      name: 'RightMenu',
-      component: RightMenu
-    },
+    // {
+    //   path: '/left',
+    //   name: 'LeftMenu',
+    //   component: LeftMenu
+    // },
+    // {
+    //   path: '/right',
+    //   name: 'RightMenu',
+    //   component: RightMenu
+    // },
     {
       path: '/common-information',
       name: 'CommonInformationPage',
@@ -179,6 +181,16 @@ export default new Router({
       path: '/contacts',
       name: 'ContactsPage',
       component: ContactsPage
+    },
+    {
+      path: '/accessible-environment',
+      name: 'AccessibleEnvironmentPage',
+      component: AccessibleEnvironmentPage
+    },
+    {
+      path: '/international-cooperation',
+      name: 'InternationalCooperationPage',
+      component: InternationalCooperationPage
     },
   ]
 })

@@ -40,7 +40,7 @@
         </div>
         <div class="title">Руководитель:</div>
         <div class="text-block">
-          Григорьев Владимир Михайлович, директор.
+          Крючкова Татьяна Николаевна, и.о.директора.
         </div>
         <div class="title">График работы:</div>
         <div class="text-block">

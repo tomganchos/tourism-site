@@ -18,17 +18,23 @@
         </ins>
       </div>
 
-      <a class="brand-book"
-         href="https://may9.ru/brandbook/"
+<!--      <a class="brand-book"-->
+<!--         href="https://may9.ru/brandbook/"-->
+<!--         target="_blank"-->
+<!--         style="margin-top: 15px; cursor: pointer">-->
+<!--        <img src="/static/images/links/75.jpg" alt="brandbook" style="width: 100%; margin-top: 15px">-->
+<!--      </a>-->
+<!--      <a class="year-2020"-->
+<!--         href="https://год2020.рф/"-->
+<!--         target="_blank"-->
+<!--         style="margin-top: 15px; cursor: pointer">-->
+<!--        <img src="/static/images/links/2020.svg" alt="2020" style="width: 100%; margin-top: 15px">-->
+<!--      </a>-->
+      <a class="national-projects"
+         href="https://национальныепроекты.рф"
          target="_blank"
          style="margin-top: 15px; cursor: pointer">
-        <img src="/static/images/links/75.jpg" alt="brandbook" style="width: 100%; margin-top: 15px">
-      </a>
-      <a class="year-2020"
-         href="https://год2020.рф/"
-         target="_blank"
-         style="margin-top: 15px; cursor: pointer">
-        <img src="/static/images/links/2020.svg" alt="2020" style="width: 100%; margin-top: 15px">
+        <img src="/static/images/links/national-projects.jpg" alt="national projects" style="width: 100%; margin-top: 15px">
       </a>
 
       <a class="item first" href="https://edu.gov.ru/" target="_blank" rel="noopener">
@@ -141,6 +147,11 @@
     align-items: center;
   }
   .year-2020 img {
+    height: 100%;
+    background-color: white;
+    padding: 15px 45px;
+  }
+  .national-projects img {
     height: 100%;
     background-color: white;
     padding: 15px 45px;
