@@ -119,7 +119,7 @@
     name: "DocumentsPage",
     data() {
       return {
-        header: 'Документы Центра',
+        header: 'Документы',
         docs: []
       }
     },

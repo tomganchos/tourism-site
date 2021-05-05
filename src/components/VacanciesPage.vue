@@ -12,7 +12,7 @@
             <i class="file alternate outline icon"/>
           </div>
           <div class="content">
-            <a class="header" href="https://drive.google.com/file/d/1rKID87zODcD5-NuU0gDZx598yV_Gp7Ua/view?usp=sharing" target="_blank" rel="noopener">Вакантные места</a>
+            <a class="header" href="https://drive.google.com/file/d/1myPFpIPfMnLn-Vh-P_mVqPBLatWOcroM/view?usp=sharing" target="_blank" rel="noopener">Вакантные места</a>
           </div>
         </div>
       </div>
@@ -25,7 +25,7 @@
     name: "VacanciesPage",
     data() {
       return {
-        header: 'Вакантные места для приема (перевода)',
+        header: 'Вакантные места для приема (перевода) обучающихся',
         year: '____ - ____'
       }
     },

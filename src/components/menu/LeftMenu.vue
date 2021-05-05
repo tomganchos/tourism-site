@@ -24,12 +24,12 @@
             <router-link to="/structure"
                          data-mobile
                          class="sub-item">
-              <span>Структура</span>
+              <span>Структура и органы управления образовательной организацией</span>
             </router-link>
             <router-link to="/documents"
                          data-mobile
                          class="sub-item">
-              <span>Документы Центра</span>
+              <span>Документы</span>
             </router-link>
             <router-link to="/education"
                          data-mobile
@@ -67,7 +67,7 @@
             <router-link to="/vacancies"
                          data-mobile
                          class="sub-item">
-              <span>Вакантные места для приёма (перевода)</span>
+              <span>Вакантные места для приёма (перевода) обучающихся</span>
             </router-link>
             <router-link to="/accessible-environment"
                          data-mobile

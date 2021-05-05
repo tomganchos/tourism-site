@@ -60,9 +60,9 @@
       return {
         header: 'Последние новости',
         slider: [
-          '<svg role="image" aria-label="1" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1100 460" class="image"><image xlink:href="/static/images/carousel/1.jpg"/></svg>',
-          '<svg role="image" aria-label="2" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1100 460" class="image"><image xlink:href="/static/images/carousel/2.jpg"/></svg>',
-          '<svg role="image" aria-label="3" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1100 460" class="image"><image xlink:href="/static/images/carousel/3.jpg"/></svg>',
+          '<svg role="image" aria-label="1" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1100 460" class="image"><image xlink:href="/static/images/carousel/4.jpg"/></svg>',
+          '<svg role="image" aria-label="2" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1100 460" class="image"><image xlink:href="/static/images/carousel/5.jpg"/></svg>',
+          '<svg role="image" aria-label="3" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1100 460" class="image"><image xlink:href="/static/images/carousel/6.jpg"/></svg>',
         ],
         options: { "inline": false, "button": true, "navbar": true, "title": false, "toolbar": false, "tooltip": false, "movable": false, "zoomable": false, "rotatable": false, "scalable": false, "transition": true, "fullscreen": false, "keyboard": true, "url": "data-source" },
         news: [],

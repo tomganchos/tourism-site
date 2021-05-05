@@ -68,6 +68,11 @@
         <div class="text-block">
           180001 г. Псков, ул. Некрасова, д.23.
         </div>
+        <div class="title">Места осуществления образовательной деятельности:</div>
+        <div class="text-block">
+          ГБОУ ДО «Псковский областной Центр детского и юношеского туризма и экскурсий», г. Псков, ул. Народная, 53<br>
+          МБОУ «СОШ №3», г. Псков, ул.Алехина, д.20
+        </div>
         <div class="title">График работы:</div>
         <div class="text-block">
           9:00-18:00.
@@ -84,10 +89,15 @@
         <div class="text-block">
           <a href="mailto:www.pskov.ru/vlast">secretar@obladmin.pskov.ru</a>
         </div>
-        <div class="title">Физические лица ОО:</div>
+        <div class="title">Официальные страницы в социальных сетях:</div>
         <div class="text-block">
-          Средняя общеобразовательная школа №3 г.Псков
-          (180020, является местом образовательной деятельности)
+          <i class="vk icon"></i>
+          ВК:
+          <a href="https://vk.com/club43893537">https://vk.com/club43893537</a>
+        <br>
+          <i class="instagram icon"></i>
+          Инстаграм:
+          <a href="https://www.instagram.com/tsentrturizmapskov/">https://www.instagram.com/tsentrturizmapskov/</a>
         </div>
       </div>
       <div class="ui tab segment" data-tab="history">

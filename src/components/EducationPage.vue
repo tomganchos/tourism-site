@@ -101,6 +101,9 @@
             </div>
           </div>
         </div>
+        <div class="text-block" v-if="doc.text">
+          {{ doc.text }}
+        </div>
       </div>
 
     </div>

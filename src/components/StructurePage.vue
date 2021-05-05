@@ -34,7 +34,7 @@
               <i class="file alternate outline icon"></i>
             </div>
             <div class="content">
-              <a class="header" href="https://drive.google.com/file/d/1wumtCAUpty8PSPpPkzc6TsXxMRZK0yvb/view" target="_blank" rel="noopener">Структура. Документ</a>
+              <a class="header" href="https://drive.google.com/file/d/1kBvXtFznUekhKI8mh7vyePkpb-nsthbh/view?usp=sharing" target="_blank" rel="noopener">Структура и органы управления образовательной организацией</a>
             </div>
           </div>
           <div class="item">
