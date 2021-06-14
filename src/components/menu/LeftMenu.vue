@@ -106,7 +106,11 @@
       <a class="item" href="https://museum.pskovedu.ru/" target="_blank">
         <span>Цифровой школьный музей</span>
       </a>
-
+      <router-link to="/childrens-tourism"
+                   data-mobile
+                   class="item">
+        <span>Детский туризм</span>
+      </router-link>
 <!--      <div class="ui accordion">-->
 <!--        <a class="title item">-->
 <!--          <i class="dropdown icon"></i>-->

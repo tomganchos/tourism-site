@@ -35,6 +35,11 @@
 		"page": "documents",
 		"category": "common"
 	}, {
+		"name": "Программа координации и реализации маршрутов Министерства культуры РФ",
+		"link": "https://drive.google.com/file/d/1xhZfKFJQsph0jgOUFsgeIPoW2O2gQjQ9/view?usp=sharing",
+		"page": "documents",
+		"category": "common"
+	}, {
 		"name": "План ФХД на 2017",
 		"link": "https://drive.google.com/open?id=1FdQ49eXJ60-Gk-aThpDaJM4EyPhokZF4",
 		"page": "documents",
@@ -338,6 +343,11 @@
 		"name": "Активные игры",
 		"link": "https://drive.google.com/file/d/1gJetCD5P5tmUa-betw5F552BGndlSjbc/view?usp=sharing",
 		"page": "pupils",
+		"category": "documents"
+	}, {
+		"name": "Выполнение плана мероприятий",
+		"link": "https://drive.google.com/file/d/1gK9rZL8RioU2ciM3vWe8RM603vb4Lifm/view?usp=sharing",
+		"page": "children",
 		"category": "documents"
 	}
 ]

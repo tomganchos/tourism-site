@@ -12,6 +12,7 @@ import PersonalPage from "@/components/PersonalPage";
 import VacanciesPage from "@/components/VacanciesPage";
 import TouristRoutesPage from "@/components/TouristRoutesPage";
 import MuseumAboutEducationPage from "@/components/MuseumAboutEducationPage";
+import ChildrensTourismPage from "@/components/ChildrensTourismPage";
 import TripsPage from "@/components/TripsPage";
 import TripPage from "@/components/TripPage";
 import HostelPage from "@/components/HostelPage";
@@ -125,6 +126,11 @@ export default new Router({
       path: '/museum-about-education',
       name: 'MuseumAboutEducationPage',
       component: MuseumAboutEducationPage
+    },
+    {
+      path: '/childrens-tourism',
+      name: 'ChildrensTourismPage',
+      component: ChildrensTourismPage
     },
     {
       path: '/trips',
