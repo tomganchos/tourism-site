@@ -17,7 +17,8 @@
           Уровень образования - дополнительное образование детей и взрослых.<br><br>
           Форма обучения - очная.<br><br>
           Язык обучения - русский.<br><br>
-          Нормативные сроки обучения – до 5 лет.
+          Нормативные сроки обучения – до 5 лет.<br><br>
+          Организация не проводит обучение по договорам.
         </div>
         <div class="text-block">
           <div><h2>Документы:</h2></div>
@@ -52,6 +53,30 @@
               </div>
               <div class="content">
                 <a class="header" href="https://drive.google.com/open?id=1HL-gBm43CkjQuvMOskAcgDcD3qjll6CE" target="_blank" rel="noopener">Методические рекомендации по реализации доп.программ</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-icon">
+                <i class="file alternate outline icon"/>
+              </div>
+              <div class="content">
+                <a class="header" href="https://drive.google.com/open?id=1kLRJ2LXfd6yRkGsJFoZkubRYGTlwbGg1" target="_blank" rel="noopener">Положение о дистанционном обучении</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-icon">
+                <i class="file alternate outline icon"/>
+              </div>
+              <div class="content">
+                <a class="header" href="https://drive.google.com/file/d/1-aVXMis0pJCTNjh65lHxl6YLq9x6diGp/view" target="_blank" rel="noopener">Лицензия</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-icon">
+                <i class="file alternate outline icon"/>
+              </div>
+              <div class="content">
+                <a class="header" href="https://drive.google.com/file/d/1oGHSvQQdyZfmqs2uWOHTQYbF0R2yrCi5/view?usp=sharing" target="_blank" rel="noopener">Новая лицензия</a>
               </div>
             </div>
           </div>

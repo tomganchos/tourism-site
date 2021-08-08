@@ -56,7 +56,9 @@
         <div class="ui segment">
           <img class="ui medium left floated image" alt="photo"  src="/static/images/personal/2.jpg">
           <div class="personal-name title">Крючкова Татьяна Николаевна</div>
-          <p class="personal-subtitle">И.о.директора Центра. <span class="personal-tel">Тел. 57-62-53</span></p>
+          <p class="personal-subtitle">И.о.директора Центра. <span class="personal-tel">Тел. 57-62-53 </span>
+            <span class="personal-tel">org608@pskovedu.ru</span>
+          </p>
           <div>Образование высшее, закончила Псковский Государственный педагогический институт им. С.М.Кирова.
             Работает в Псковском областном Центре детского и юношеского туризма и экскурсий с 2000 года.
             До 2005 г. - методистом отдела музейной работы, после реорганизации Центра - методистом отдела
@@ -91,7 +93,9 @@
         <div class="ui segment" style="overflow: auto; margin-bottom: 20px">
           <img class="ui medium left floated image" alt="photo" src="/static/images/personal/3.jpg">
           <div class="personal-name title">Цапенко Екатерина Владимировна</div>
-          <p class="personal-subtitle">Главный бухгалтер. <span class="personal-tel">Тел.57-62-53</span></p>
+          <p class="personal-subtitle">Главный бухгалтер. <span class="personal-tel">Тел.57-62-53 </span>
+            <span class="personal-tel">org608@pskovedu.ru</span>
+          </p>
           <div class="text-block">Окончила Славянский аграрный техникум по специальности бухучет и аудит,
             Сумской национальный аграрный университет по специальности экономист-бухгалтер, аудитор. </div>
           <div class="text-block">В Центре детского туризма работает с января 2017 года</div>
