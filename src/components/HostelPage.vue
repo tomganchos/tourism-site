@@ -77,11 +77,11 @@
     data() {
       return {
         header: 'Общежитие',
-        images: ['https://pp.vk.me/c638631/v638631908/14fe3/W5kfcP4DP0Q.jpg',
-          'http://turizmpskov.ru/image/host/host2.png',
-          'http://turizmpskov.ru/image/host/host3.png',
-          'https://pp.vk.me/c638631/v638631908/14fd9/oG-31fD2Tjg.jpg',
-          'http://turizmpskov.ru/image/host/host4.png'],
+        images: ['/static/images/hostel/hostel-1.jpg',
+          '/static/images/hostel/hostel-2.jpg',
+          '/static/images/hostel/hostel-3.jpg',
+          '/static/images/hostel/hostel-4.jpg',
+          '/static/images/hostel/hostel-5.jpg'],
         options: { "inline": false, "button": true, "navbar": true, "title": false, "toolbar": false,
           "tooltip": false, "movable": false, "zoomable": false, "rotatable": false, "scalable": false,
           "transition": true, "fullscreen": false, "keyboard": true, "url": "data-source" }

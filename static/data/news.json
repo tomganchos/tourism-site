@@ -1,5 +1,236 @@
 [
   {
+    "title": "Приглашаем на занятия!",
+    "date": "2021-10-11T00:00:00.000",
+    "description": "Внимание!\nПриглашаем школьников 11-13 лет на обучение по программе \"Россия начинается здесь\".\n\nМы с вами вместе:\n узнаем много нового и интересного о родном крае;\n познакомимся с музеями и знаменитыми местами Псковщины;\n совершим много интересных поездок, прогулок и экскурсий;\n заведем новые интересные знакомства.\n\nЗанятия бесплатные\nНаш адрес: город Псков, улица Народная, 53 Б.\n\n☎ Звоните: +79062215537 - Ольга Владимировна;\n+79211174331 - Татьяна Николаевна.",
+    "results": false,
+    "images": [
+      {
+        "preview": "/static/images/news/2110/4_p.jpg",
+        "full": "/static/images/news/2110/4_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Напоминание о мероприятиях",
+    "date": "2021-10-08T00:00:00.000",
+    "description": "",
+    "results": true,
+    "links": [
+      {
+        "title": "Напоминание о конкурсах",
+        "link": "https://drive.google.com/file/d/1QVwUQ-m07B7Vk58uRBBZzTkuhvS8Pfd9/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Положение о конкурсе видеороликов",
+        "link": "https://docs.google.com/document/d/16pM_hObVBeBqFQQay3I2_ITIDSMh5PIO/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Положение о слёте юных краеведов-туристов",
+        "link": "https://docs.google.com/document/d/1e8dGKwT2V3V3lRxSCMU0QNbgJHWZxFjw/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "type": "file alternate outline"
+      }
+    ]
+  },
+  {
+    "title": "Итоги конкурса школьных музеев",
+    "date": "2021-10-05T00:00:00.000",
+    "description": "",
+    "results": false,
+    "images": [
+      {
+        "preview": "/static/images/news/2110/3_p.jpg",
+        "full": "/static/images/news/2110/3_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Итоги конкурса школьных музеев",
+    "date": "2021-10-02T00:00:00.000",
+    "description": "Подведены итоги областного этапа Всероссийского конкурса школьных музеев. Поздравляем победителей и призеров в номинациях конкурса: \"Визитная карточка\" и \"Экскурсовод музея образовательной организации\".",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги конкурса школьных музеев",
+        "link": "https://drive.google.com/file/d/1VIMkGOZBee8c1MFNoK5L8ZXSJxvpNWg1/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2110/2_p.jpg",
+        "full": "/static/images/news/2110/2_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Областные соревнования по туризму среди учащейся молодежи",
+    "date": "2021-10-01T00:00:00.000",
+    "description": "Внимание! Соревнования по туризму среди учащейся молодежи  будут проходить в г. Пскове 23-24 октября. Все подробности в письме и в Положении.",
+    "results": false,
+    "links": [
+      {
+        "title": "Положение о турслёте",
+        "link": "https://docs.google.com/document/d/1xkDNTHO6wmoIlbd9KVF2CI29JFrEk8n_/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Положение о проведении слёта",
+        "link": "https://drive.google.com/file/d/1AfDOG3c-vtRPI3LoNpCC-bVzpzCltdWw/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Условия турслёта",
+        "link": "https://docs.google.com/document/d/1rfUtixX_NWsaMmL6nuF3bW0IJp9fM4g7/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2110/1_p.jpg",
+        "full": "/static/images/news/2110/1_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Всемирный день туризма!",
+    "date": "2021-09-27T00:00:00.000",
+    "description": "",
+    "results": false,
+    "images": [
+      {
+        "preview": "/static/images/news/2109/5_p.jpg",
+        "full": "/static/images/news/2109/5_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Конкурс \"Забытое слово\"",
+    "date": "2021-09-21T00:00:00.000",
+    "description": "Уважаемые коллеги! Напоминаем Вам, что в период до 01 октября 2021 года осуществляется прием работ на областной заочный конкурс диалектов «Забытое слово». \nКонкурс проводится по трем номинациям: экспедиция, тематические словари, поэтические произведения.\nПринимаем ваши  работы по адресу электронной почты: org608@pskovedu.ru, или по адресу: г. Псков, ул. Народная, 53 Б. в указанные сроки.\nКонтактное лицо: Светлана Васильевна Лебедева, старший инструктор-методист экскурсионного отдела, 8 (8112) 57 62 54.",
+    "results": false,
+    "links": [
+      {
+        "title": "Забытое слово. Конкурс",
+        "link": "https://docs.google.com/document/d/1Zw4o2287YSMEZatn1nxmEHbavdJZGRKA/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2109/4_p.jpg",
+        "full": "/static/images/news/2109/4_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Фестиваль бардовской песни",
+    "date": "2021-09-14T00:00:00.000",
+    "description": "До 1 октября продлен срок заявок на фестиваль бардовской песни \"В кругу\nдрузей\". Ждем фрагмент видеозаписи на электронную почту, указанную в\nПоложении.\n».\nТематика основной номинации:\n-песни их мультфильмов, кинофильмов о дорогах, путешествиях,\nприключениях, верных\nдрузьях;\n- песни известных бардов;\n-песни-переделки о туризме на музыку известных авторов.\nДополнительная номинация «Поэты не рождаются случайно...» к юбилею Игоря\nТалькова.",
+    "results": false,
+    "links": [
+      {
+        "title": "Положение о фестивале бардовской песни",
+        "link": "https://drive.google.com/file/d/16Aq9WS7AvPdNFzkAI3bUjMB352RBJMMT/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2109/3_p.jpg",
+        "full": "/static/images/news/2109/3_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Итоги соревнований по туризму",
+    "date": "2021-09-08T00:00:00.000",
+    "description": "В Себежском районе прошли соревнования по туризму среди педагогических\nработников. В соревнованиях приняли участие 10 муниципалитетов и команда\nиз Республики Беларусь г.Полоцка. Победителями в группе \"А\" стала\nкоманда города Великие Луки, а в группе \"Б\" - команда Красногородского\nрайона.",
+    "results": true,
+    "links": [
+      {
+        "title": "Итоги туристического слёта",
+        "link": "https://drive.google.com/file/d/1Oz5cSUnsyPwwfWjTTJFivK5LMeOZEXeR/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2109/2_p.jpg",
+        "full": "/static/images/news/2109/2_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Соревнования по туризму среди педагогических работников",
+    "date": "2021-08-30T00:00:00.000",
+    "description": "Внимание! Изменилось место проведения соревнований по туризму среди педагогических работников. Соревнования состоятся в местечко Озерявки Себежского района.",
+    "results": false,
+    "images": [
+      {
+        "preview": "/static/images/news/2109/1_p.jpg",
+        "full": "/static/images/news/2109/1_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Всероссийские краеведческие чтения юных краеведов-туристов",
+    "date": "2021-08-24T00:00:00.000",
+    "description": "Приглашаем принять участие юных краеведов во Всероссийских краеведческих чтениях! Чтения проводит Федеральный Центр детско-юношеского туризма, краеведения и организации отдыха и оздоровления детей.",
+    "results": false,
+    "links": [
+      {
+        "title": "Положение Условия Чтения 2021",
+        "link": "https://drive.google.com/file/d/1YYJTuoKjeMDwGZubOyNFBPy6fOFM7J9X/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ]
+  },
+  {
+    "title": "Всероссийский конкурс на лучшую выставку школьных музеев",
+    "date": "2021-08-14T00:00:00.000",
+    "description": "Приглашаем принять участие во Всероссийском конкурсе на лучшую выставку школьных музеев.\nПрием заявок завершается 30 сентября 2021 г.\nФиналисты будут приглашены на форум школьных музеев, который состоится 20 ноября 2021 г. в Музее Победы.",
+    "results": false,
+    "links": [
+      {
+        "title": "Письмо",
+        "link": "https://drive.google.com/file/d/1VA5Q1CJvxBrJb9OIMdLpFxlEHXg_pG8m/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Положение Музей Победы",
+        "link": "https://drive.google.com/file/d/1-0z7m1-ev5Ov8uh3dqtMaI_1WEofh9Z0/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      {
+        "preview": "/static/images/news/2108/1_p.jpg",
+        "full": "/static/images/news/2108/1_f.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Всероссийский конкурс на лучшую выставку школьных музеев",
+    "date": "2021-08-14T00:00:00.000",
+    "description": "Приглашаем принять участие во Всероссийском конкурсе на лучшую выставку школьных музеев.\nПрием заявок завершается 30 сентября 2021 г.\nФиналисты будут приглашены на форум школьных музеев, который состоится 20 ноября 2021 г. в Музее Победы.",
+    "results": false,
+    "links": [
+      {
+        "title": "Письмо",
+        "link": "https://drive.google.com/file/d/1VA5Q1CJvxBrJb9OIMdLpFxlEHXg_pG8m/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Положение Музей Победы",
+        "link": "https://drive.google.com/file/d/1-0z7m1-ev5Ov8uh3dqtMaI_1WEofh9Z0/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ]
+  },
+  {
     "title": "Приглашаем на занятия",
     "date": "2021-08-09T00:00:00.000",
     "description": "",
