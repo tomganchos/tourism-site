@@ -56,7 +56,7 @@
         <div class="ui segment">
           <img class="ui medium left floated image" alt="photo"  src="/static/images/personal/2.jpg">
           <div class="personal-name title">Крючкова Татьяна Николаевна</div>
-          <p class="personal-subtitle">И.о.директора Центра. <span class="personal-tel">Тел. 57-62-53 </span>
+          <p class="personal-subtitle">Заместитель директора Центра. <span class="personal-tel">Тел. 57-62-53 </span>
             <span class="personal-tel">org608@pskovedu.ru</span>
           </p>
           <div>Образование высшее, закончила Псковский Государственный педагогический институт им. С.М.Кирова.
@@ -112,7 +112,7 @@
 
         <div class="ui segment" style="overflow: auto">
           <img class="ui medium left floated image" alt="photo" src="/static/images/personal/4.jpg">
-          <div class="personal-name title">Баштырева Светлана Васильевна</div>
+          <div class="personal-name title">Лебедева Светлана Васильевна</div>
           <p class="personal-subtitle">Старший инструктор-методист экскурсионного отдела, педагог дополнительного образования. <span class="personal-tel">Тел. 57-62-54</span></p>
           <div class="text-block">В 2012 году окончила филологический факультет Псковского Государственного университета.
             В Псковском областном Центре детского и юношеского туризма и экскурсий
@@ -199,7 +199,7 @@
         <div class="ui segment" style="overflow: auto; margin-bottom: 15px">
           <img class="ui medium left floated image" alt="photo" src="/static/images/personal/8.jpg">
           <div class="personal-name title">Лукьянова Яна Юрьевна</div>
-          <p class="personal-subtitle">Методист отдела туризма, педагог дополнительного образования. <span class="personal-tel">Тел. 57-26-52</span></p>
+          <p class="personal-subtitle">Педагог дополнительного образования. <span class="personal-tel">Тел. 57-26-52</span></p>
           <div class="text-block">Окончила Псковского Государственного университета, факультет технологии и дизайна в 2018г.</div>
           <div class="text-block">В центре детского туризма работает с сентября 2016 года.</div>
         </div>
