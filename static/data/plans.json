@@ -434,6 +434,29 @@
         "name": "План на октябрь",
         "link": "https://docs.google.com/document/d/1ffBAe1Cme2-zlUY0LVMNeb6F1INkKmpa/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
         "month": true
+      }, {
+        "name": "План на ноябрь",
+        "link": "https://docs.google.com/document/d/1Kjs-KSifSKCEAhegnJV7xWCvaY3QsQlc/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "month": true
+      }, {
+        "name": "План на декабрь",
+        "link": "https://docs.google.com/document/d/1Y2qZyIvYm-iZLIi-vCxT8u_-8V5HRHRS/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "month": true
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "docs": [
+      {
+        "name": "Календарь массовых мероприятий на 2021 год",
+        "link": "https://drive.google.com/file/d/1rYdqP9fUEigDjQ0PAiBfgfpOmU7bjzVR/view?usp=sharing",
+        "month": false
+      },
+      {
+        "name": "План на январь",
+        "link": "https://drive.google.com/file/d/1qYg1fsD1935dkXlMfluz5uyFSHYV8zH6/view?usp=sharing",
+        "month": true
       }
     ]
   }
