@@ -44,7 +44,7 @@
         </div>
         <div class="title">Руководитель:</div>
         <div class="text-block">
-          Крючкова Татьяна Николаевна, и.о.директора.
+          Прокофьев Игорь Владимирович, и.о.директора
         </div>
         <div class="title">График работы:</div>
         <div class="text-block">

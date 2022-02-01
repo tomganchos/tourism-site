@@ -23,7 +23,7 @@
         <h3>Электронная почта: </h3><a href="mailto:org608@pskovedu.ru">org608@pskovedu.ru</a>
       </div>
       <div class="text-block">
-        <h3>И.о.директора: </h3><span>Крючкова Татьяна Николаевна, <a href="tel:88112576084">8 (8112) 57-60-84</a></span>
+        <h3>И.о.директора: </h3><span>Прокофьев Игорь Владимирович, <a href="tel:88112576084">8 (8112) 57-60-84</a></span>
       </div>
       <div class="text-block">
         <div><h2>Документы:</h2></div>
@@ -34,7 +34,7 @@
               <i class="file alternate outline icon"></i>
             </div>
             <div class="content">
-              <a class="header" href="https://drive.google.com/file/d/1kBvXtFznUekhKI8mh7vyePkpb-nsthbh/view?usp=sharing" target="_blank" rel="noopener">Структура и органы управления образовательной организацией</a>
+              <a class="header" href="https://docs.google.com/document/d/1a7Mo659Pce8tZrAmxFej18RjQOgLNqCU/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true" target="_blank" rel="noopener">Структура и органы управления образовательной организацией</a>
             </div>
           </div>
           <div class="item">
