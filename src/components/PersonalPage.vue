@@ -203,6 +203,14 @@
               <a class="header" href="https://drive.google.com/file/d/1cTEHHePeD0IbIBTUVbccJT3ppRFO0T15/view?usp=sharing" target="_blank" rel="noopener">Педагогический состав на 01.01.2021</a>
             </div>
           </div>
+          <div class="item" style="margin-top: 8px;">
+            <div class="item-icon">
+              <i class="file alternate outline icon"/>
+            </div>
+            <div class="content">
+              <a class="header" href="https://docs.google.com/document/d/1MKNZXW4RLNg5okokJB91TKpYzAXUWjMG/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true" target="_blank" rel="noopener">Педагогический состав на 01.01.2022</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,5 +1,102 @@
 [
   {
+    "title": "С праздником 23 февраля!",
+    "date": "2022-02-23T00:00:00.000",
+    "description": "",
+    "links": [],
+    "images": [
+      "/static/images/news/2202/16456206838460.jpeg"
+    ],
+    "results": false
+  },
+  {
+    "title": "Итоги соревнований по спортивному ориентированию (зима)",
+    "date": "2022-02-22T00:00:00.000",
+    "description": "В Великолукском районе прошли соревнования по спротивному ориентированию. В соревнованиях приняли участие 230 спортсменов из Бежаницкого, Великолукского, Куньинского, Невельского, Новосокольнического, Опочецкого, Псковского, Пыталовского, Себежского районов, городов Псков, Великие Луки и областного Центра туризма.",
+    "links": [
+      {
+        "title": "Итоги соревнований",
+        "link": "https://drive.google.com/file/d/1eeXFSB8X1Imu-a3mUFxtH-GuCGKA94MS/view?usp=sharing",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "Протоколы",
+        "link": "https://drive.google.com/file/d/1eeXFSB8X1Imu-a3mUFxtH-GuCGKA94MS/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      "/static/images/news/2202/16456204417490.jpeg"
+    ],
+    "results": true
+  },
+  {
+    "title": "Интернет-викторина \"Знатоки родного края\"",
+    "date": "2022-02-15T00:00:00.000",
+    "description": "",
+    "links": [
+      {
+        "title": "Ссылка",
+        "link": "https://docs.google.com/forms/d/164T7j891qJLNUXqY9ksetGaQnd2tGsiu0ciOlaoLlkY/edit#responses",
+        "type": "pencil alternate"
+      }
+    ],
+    "images": [
+      "/static/images/news/2202/1.jpg"
+    ],
+    "results": false
+  },
+  {
+    "title": "Соревнования по спортивному ориентированию на лыжах",
+    "date": "2022-02-14T00:00:00.000",
+    "description": "20 февраля в Великолукском районе, местечко Сенчитский бор состоятся областные соревнования по спортивному ориентированию.Состав команд в каждой возрастной группе не более 6 человек. Группа МЖ-10 допускается с сопровождением.\nПредварительные заявки на участие в соревнованиях предоставить до 16 февраля на электронные адреса: otdelturizmapskov@yandex.ru и stepanova6565@mail.ru.",
+    "links": [
+      {
+        "title": "письмо",
+        "link": "https://drive.google.com/file/d/1aTj4OW7NZQDuaks1CN0NdaSza1WnokLy/view?usp=sharing",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      "/static/images/news/2202/16448624701310.jpeg"
+    ],
+    "results": false
+  },
+  {
+    "title": "Открытие  6-го Регионального чемпионата Ворлдскиллс Россия",
+    "date": "2022-02-07T00:00:00.000",
+    "description": "",
+    "links": [
+      {
+        "title": "Ссылка",
+        "link": "https://www.youtube.com/watch?v=RaJptfGQEmI",
+        "type": "youtube"
+      }
+    ],
+    "results": false
+  },
+  {
+    "title": "Вопросы краеведческой викторины \"Гроза 12 года...\"",
+    "date": "2022-02-07T00:00:00.000",
+    "description": "Вопросы к викторине, посвященной 210-летию Отечественной войны 1812 года.",
+    "links": [
+      {
+        "title": "Положение о викторине",
+        "link": "https://docs.google.com/document/d/1YhfkmJXxIFW-C14Hn-3FSKo5ELRWL36l/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "type": "file alternate outline"
+      },
+      {
+        "title": "вопросы",
+        "link": "https://docs.google.com/document/d/1_AKZaBhqWeeuwew3hcTOmAp3xI_wG0O3/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "type": "file alternate outline"
+      }
+    ],
+    "images": [
+      "/static/images/news/2202/16442571914770.jpeg"
+    ],
+    "results": false
+  },
+  {
     "title": "Муниципальный этап конкурса сочинений \"Без срока давности\"",
     "date": "2022-01-27T00:00:00.000",
     "description": "Заканчивается школьный этап конкурса сочинений \"Без срока давности\". Впереди муниципальный этап. Напоминаем, что отчеты о проведении муниципального этапа и работы необходимо отправить на электронную почту kraeved60@yandex.ru до 7 февраля 2022 г.",
