@@ -92,3 +92,11 @@ h3 {
 .ui.menu {
   font-size: 100%;
 }
+
+.h2 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #204d74 !important;
+  font-weight: 700;
+}

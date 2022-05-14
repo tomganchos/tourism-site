@@ -449,13 +449,38 @@
     "year": 2022,
     "docs": [
       {
-        "name": "Календарь массовых мероприятий на 2021 год",
-        "link": "https://drive.google.com/file/d/1rYdqP9fUEigDjQ0PAiBfgfpOmU7bjzVR/view?usp=sharing",
+        "name": "Календарь массовых мероприятий на 2022 год",
+        "link": "https://drive.google.com/file/d/1lSPjnjWW9tHEchNITHFNq9oLxbyxzxbK/view?usp=sharing",
+        "month": false
+      },
+      {
+        "name": "Туриада 2022",
+        "link": "https://drive.google.com/file/d/1xgwRxBjQkdDSWhllaMIvDgeKEC9flCSF/view?usp=sharing",
+        "month": false
+      },
+      {
+        "name": "Туриада, приказ, 2022 год",
+        "link": "https://drive.google.com/file/d/1pdZoW0lPqFMCYG8sYTvW0tRhGnarqhhD/view?usp=sharing",
         "month": false
       },
       {
         "name": "План на январь",
         "link": "https://drive.google.com/file/d/1qYg1fsD1935dkXlMfluz5uyFSHYV8zH6/view?usp=sharing",
+        "month": true
+      },
+      {
+        "name": "План на февраль",
+        "link": "https://docs.google.com/document/d/1FkDbGe5O2cDl5yLGphxzcjoxxz2fDiWp/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "month": true
+      },
+      {
+        "name": "План на март",
+        "link": "https://docs.google.com/document/d/1nTAAbTGUAnnrzOZIgaYOFvBLVwOwpStt/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
+        "month": true
+      },
+      {
+        "name": "План на апрель",
+        "link": "https://docs.google.com/document/d/1PBxV7EdVPBG6YZeRo7Gk333L6CT7rgIC/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
         "month": true
       }
     ]

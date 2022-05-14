@@ -139,6 +139,11 @@
                    class="item">
         <span>Экскурсионная деятельность</span>
       </router-link>
+      <router-link to="/children-routes"
+                   data-mobile
+                   class="item">
+        <span>Детские маршруты</span>
+      </router-link>
       <router-link to="/innovation"
                    data-mobile
                    class="item" style="display: none">
@@ -164,11 +169,11 @@
                    class="item">
         <span>Публикации о нас</span>
       </router-link>
-      <router-link to="/gallery"
-                   data-mobile
-                   class="item">
-        <span>Фотогалерея</span>
-      </router-link>
+<!--      <router-link to="/gallery"-->
+<!--                   data-mobile-->
+<!--                   class="item">-->
+<!--        <span>Фотогалерея</span>-->
+<!--      </router-link>-->
       <router-link to="/meth-library"
                    data-mobile
                    class="item">

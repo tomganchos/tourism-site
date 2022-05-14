@@ -15,6 +15,8 @@ import MuseumAboutEducationPage from "@/components/MuseumAboutEducationPage";
 import ChildrensTourismPage from "@/components/ChildrensTourismPage";
 import TripsPage from "@/components/TripsPage";
 import TripPage from "@/components/TripPage";
+import ChildrenRoutesPage from "@/components/ChildrenRoutesPage";
+import ChildrenRoutePage from "@/components/ChildrenRoutePage";
 import HostelPage from "@/components/HostelPage";
 import PlansPage from "@/components/PlansPage";
 import ResultsPage from "@/components/ResultsPage";
@@ -135,11 +137,21 @@ export default new Router({
     {
       path: '/trips',
       name: 'TripsPage',
-      component: TripsPage,
+      component: TripsPage
+    },
+    {
+      path: '/trips/:id',
+      name: 'TripPage',
+      component: TripPage
+    },
+    {
+      path: '/children-routes',
+      name: 'ChildrenRoutesPage',
+      component: ChildrenRoutesPage,
       children: [
         {
           path: ':id',
-          component: TripPage
+          component: ChildrenRoutePage
         }
       ]
     },
@@ -168,11 +180,11 @@ export default new Router({
       name: 'PublicationPage',
       component: PublicationPage
     },
-    {
-      path: '/gallery',
-      name: 'GalleryPage',
-      component: GalleryPage
-    },
+    // {
+    //   path: '/gallery',
+    //   name: 'GalleryPage',
+    //   component: GalleryPage
+    // },
     {
       path: '/meth-library',
       name: 'MethLibraryPage',
