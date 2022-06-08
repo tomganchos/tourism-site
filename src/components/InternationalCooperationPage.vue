@@ -18,6 +18,10 @@
           </div>
         </div>
       </div>
+      <div class="text-block">
+        Международной аккредитации образовательных программ ГБОУ ДО «Псковский областной Центр
+        детского и юношеского туризма и экскурсий»  не имеет
+      </div>
     </div>
   </div>
 </template>
@@ -32,6 +36,10 @@ export default {
         {
           'name': 'Договор с Витебским дворцом детей и молодёжи',
           'link': 'https://drive.google.com/file/d/1srHGjUj1HqMx4DJBFxp4Le5GLvrNGO1_/view?usp=sharing'
+        },
+        {
+          'name': 'Договор с Полоцком 2021',
+          'link': 'https://drive.google.com/file/d/1P5tqKthJuVTSkRI5qF9J2f9xBKaFH4dU/view?usp=sharing'
         }
       ]
     }

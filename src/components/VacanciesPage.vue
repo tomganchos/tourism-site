@@ -12,15 +12,7 @@
             <i class="file alternate outline icon"/>
           </div>
           <div class="content">
-            <a class="header" href="https://drive.google.com/file/d/1myPFpIPfMnLn-Vh-P_mVqPBLatWOcroM/view?usp=sharing" target="_blank" rel="noopener">Вакантные места</a>
-          </div>
-        </div>
-        <div class="item">
-          <div class="item-icon">
-            <i class="file alternate outline icon"/>
-          </div>
-          <div class="content">
-            <a class="header" href="https://docs.google.com/document/d/1hU-qYSFn6f1imEvqqm2hNEGXroiaJZ9h/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true" target="_blank" rel="noopener">Вакантные места на 2021-2022 год</a>
+            <a class="header" href="https://docs.google.com/document/d/1Nzc76wINr2jCexybDlZJh7PCbR5a6if0/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true" target="_blank" rel="noopener">Вакантные места на 2021-2022 год</a>
           </div>
         </div>
       </div>
