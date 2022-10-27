@@ -15,7 +15,7 @@
           Предметом деятельности Учреждения является осуществление образовательной деятельности.<br><br>
           В Учреждении реализуются дополнительные общеобразовательные общеразвивающие программы по туристско-краеведческому направлению.<br><br>
           Уровень образования - дополнительное образование детей и взрослых.<br><br>
-          Форма обучения - очная.<br><br>
+          Форма обучения - очная и заочная, с применением дистанционных образовательных технологий.<br><br>
           Язык обучения - русский.<br><br>
           Нормативные сроки обучения – до 5 лет.<br><br>
           Организация не проводит обучение по договорам.
@@ -53,14 +53,6 @@
               </div>
               <div class="content">
                 <a class="header" href="https://drive.google.com/open?id=1HL-gBm43CkjQuvMOskAcgDcD3qjll6CE" target="_blank" rel="noopener">Методические рекомендации по реализации доп.программ</a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="item-icon">
-                <i class="file alternate outline icon"/>
-              </div>
-              <div class="content">
-                <a class="header" href="https://drive.google.com/open?id=1kLRJ2LXfd6yRkGsJFoZkubRYGTlwbGg1" target="_blank" rel="noopener">Положение о дистанционном обучении</a>
               </div>
             </div>
             <div class="item">

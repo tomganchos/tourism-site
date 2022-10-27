@@ -42,7 +42,7 @@
               <i class="file alternate outline icon"></i>
             </div>
             <div class="content">
-              <a class="header" href="https://drive.google.com/file/d/1ckd6phBfYojvNpyRjDIyb692nGwKJzwj/view" target="_blank" rel="noopener">Положение о методическом совете</a>
+              <a class="header" href="https://drive.google.com/file/d/1CLL9r-ghwR8w4jWQQqUD0REFI8Jt13p_/view?usp=sharing" target="_blank" rel="noopener">Положение о методическом совете</a>
             </div>
           </div>
           <div class="item">
@@ -50,7 +50,7 @@
               <i class="file alternate outline icon"></i>
             </div>
             <div class="content">
-              <a class="header" href="https://drive.google.com/file/d/1EbZsl4R5FCTuO_n2G1RDfL8vgRX16dxF/view" target="_blank" rel="noopener">Положение о совете учреждения</a>
+              <a class="header" href="https://drive.google.com/file/d/1eIWfHtfVUP8BNKBay2Ac7dnW90wydtR-/view?usp=sharing" target="_blank" rel="noopener">Положение о совете учреждения</a>
             </div>
           </div>
           <div class="item">
@@ -58,7 +58,7 @@
               <i class="file alternate outline icon"></i>
             </div>
             <div class="content">
-              <a class="header" href="https://drive.google.com/file/d/1HF_nm6B3Qev97xtHXrRB3_VCj7wfXV4g/view" target="_blank" rel="noopener">Положение об общем собрании работников</a>
+              <a class="header" href="https://drive.google.com/file/d/1g_gXruGbnjhl7JSW0Hrj11NW3d4rFJCq/view?usp=sharing" target="_blank" rel="noopener">Положение об общем собрании работников</a>
             </div>
           </div>
         </div>
