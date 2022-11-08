@@ -62,6 +62,15 @@
             </div>
           </div>
         </div>
+          <div class="item">
+            <div class="item-icon">
+              <i class="file alternate outline icon"></i>
+            </div>
+            <div class="content">
+              <a class="header" href="https://docs.google.com/document/d/1i0Fjkohqf5hFYtUqGNeunOwNiQjOZGqp/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true" target="_blank" rel="noopener">Список учреждений, осуществляющих туристско-краеведческую деятельность</a>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>

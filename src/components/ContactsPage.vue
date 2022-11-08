@@ -20,6 +20,9 @@
       <div class="text-block">
         <h3>Общежитие: </h3><a href="tel:+78112576254" data-rel="external">+7 (8112) 57-62-54</a>
       </div>
+      <div class="text-block">
+        <h3>Музей истории народного образования, региональный координатор школьных музеев: </h3><a href="tel:+78112560076" data-rel="external">+7 (8112) 56-00-76</a>
+      </div>
       <div class="text-block" style="margin-bottom: 15px !important;">
         <h3>Электронная почта: </h3><a href="mailto:org608@pskovedu.ru">org608@pskovedu.ru</a>
       </div>

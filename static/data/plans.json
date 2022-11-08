@@ -497,6 +497,26 @@
         "name": "План на октябрь",
         "link": "https://docs.google.com/document/d/17Uxdzytn2kxR6baOutaVpPQxvMURWyBh/edit?usp=sharing&ouid=117737652311635922254&rtpof=true&sd=true",
         "month": true
+      },
+      {
+        "name": "План на ноябрь",
+        "link": "https://docs.google.com/document/d/1UkWCc-jFYaUE1NTJQ4-ChnUVOGI1ZFiX/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true",
+        "month": true
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "docs": [
+      {
+        "name": "Календарь массовых мероприятий на 2023 год",
+        "link": "https://drive.google.com/file/d/1GnjE8xrcGF4crybuKcS51eilc9LanZi2/view?usp=share_link",
+        "month": false
+      },
+      {
+        "name": "Региональные этапы Всероссийских конкурсов",
+        "link": "https://drive.google.com/file/d/1EaUZaReB0LtNmmevqGt0sbL6i3gzVDZr/view?usp=share_link",
+        "month": false
       }
     ]
   }

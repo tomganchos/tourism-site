@@ -4,6 +4,18 @@
       <h1 class="ui medium header">{{header}}</h1>
     </div>
     <div v-if="!$route.params.id">
+      <div class="ui segment body">
+        <div class="ui relaxed divided list">
+          <div class="item">
+            <div class="item-icon">
+              <i class="file alternate outline icon"></i>
+            </div>
+            <div class="content">
+              <a class="header" href="https://drive.google.com/file/d/1uwWOlqYhcv2DXRubOVxJYgXYmB5FSFwU/view?usp=share_link" target="_blank" rel="noopener">Количество обучающихся, принявших участие в экскурсиях</a>
+            </div>
+          </div>
+        </div>
+      </div>
       <router-link v-for="trip in trips" :to="trip.route" :key="trip.route">
         <div class="ui segment link" >
           <img class="ui small left floated image image--cover" alt="photo"  :src="trip.photo">

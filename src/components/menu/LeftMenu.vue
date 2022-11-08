@@ -96,12 +96,17 @@
       <router-link to="/tourist-routes"
                    data-mobile
                    class="item">
-        <span>Туристские маршруты</span>
+        <span>Туризм</span>
       </router-link>
       <router-link to="/museum-about-education"
                    data-mobile
                    class="item">
         <span>Музей истории народного образования Псковской области</span>
+      </router-link>
+      <router-link to="/local-history"
+                   data-mobile
+                   class="item">
+        <span>Краеведение</span>
       </router-link>
       <a class="item" href="https://museum.pskovedu.ru/" target="_blank">
         <span>Цифровой школьный музей</span>
