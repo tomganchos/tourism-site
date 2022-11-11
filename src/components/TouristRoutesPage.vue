@@ -73,6 +73,22 @@
               <a class="header" href="https://docs.google.com/document/d/1GcTdcMlBPtOLzxgfIuMm2nLJDRUpDj_n/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true" target="_blank" rel="noopener">Реестр инструкторов детского туризма</a>
             </div>
           </div>
+          <div class="item">
+            <div class="item-icon">
+              <i class="file alternate outline icon"></i>
+            </div>
+            <div class="content">
+              <a class="header" href="https://docs.google.com/document/d/1bfb2IfZeZXLN_Hb1A3BXP1HsB-2FVKuz/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true" target="_blank" rel="noopener">Информация о кружках и клубах</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-icon">
+              <i class="file alternate outline icon"></i>
+            </div>
+            <div class="content">
+              <a class="header" href="https://docs.google.com/document/d/1wctaQZIS1XcUPzoHIcF9mvl0yYyUOfiF/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true" target="_blank" rel="noopener">Информация о походах в 2022 году</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
