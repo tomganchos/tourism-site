@@ -13,7 +13,7 @@
               <i class="file alternate outline icon"></i>
             </div>
             <div class="content">
-              <a class="header" href="https://drive.google.com/file/d/137NIQFGLDYqrKsWtqUHcz6jq-cjx_uyr/view?usp=sharing" target="_blank" rel="noopener">Справка об отсутсвии платных услуг</a>
+              <a class="header" href="https://drive.google.com/file/d/1VP3uJYKwNiS_pJ27eEnqU8FRp4PbXmrd/view?usp=share_link" target="_blank" rel="noopener">Справка об отсутсвии платных услуг в 2023</a>
             </div>
           </div>
 

@@ -1,5 +1,82 @@
 [
   {
+    "year": "2022-2023",
+    "programs": [
+      {
+        "label": "Я покажу тебе музей. Байкова О.В.",
+        "link": "https://drive.google.com/file/d/1yx-wkSGo4VOJIuieuzg7_gu3d4w-6Zji/view?usp=share_link"
+      },
+      {
+        "label": "Я покажу тебе музей. Описание программы",
+        "link": "https://docs.google.com/document/d/1NpHsNW0Bq2l_Af6mPVYMHLFajYspdjXJ/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true"
+      },
+      {
+        "label": "Я покажу тебе музей. Аннотация к программе",
+        "link": "https://docs.google.com/document/d/1MI2i_6bYhOmboG7IJMhXCD02hHSbZyQ2/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true"
+      },
+      {
+        "label": "Выдающиеся личности Псковщины. Быстрова А.С.",
+        "link": "https://drive.google.com/file/d/1ONw3-rISlNzJ1FaNn-_1I_uDienrFZQP/view?usp=share_link"
+      },
+      {
+        "label": "Выдающиеся личности Псковщины. Описание программы",
+        "link": "https://docs.google.com/document/d/11x0pHq6cVE2pqj2bolgQDWGGI2LHhJfv/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true"
+      },
+      {
+        "label": "Выдающиеся личности Псковщины. Аннотация к программе",
+        "link": "https://docs.google.com/document/d/1vkunRcQFSCAb2LIanWsnrHLTMA8uNPvx/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true"
+      },
+      {
+        "label": "Юные экскурсоводы Пскова. Лебедева С.В.",
+        "link": "https://drive.google.com/file/d/1ZIeUEumzIOgwrWj8sftLBTCz7Vuuz_Wz/view?usp=share_link"
+      },
+      {
+        "label": "Юные экскурсоводы Пскова. Описание программы",
+        "link": "https://docs.google.com/document/d/12xzzYwEDjbrcGBolI1_VzW5f9IoWzoT0/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true"
+      },
+      {
+        "label": "Юные экскурсоводы. Аннотация к программе",
+        "link": "https://docs.google.com/document/d/1HalO440qrJUyg-l-v0yLECGpSvEaNpM7/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true"
+      },
+      {
+        "label": "Юный турист Лукьянова Я.Ю.",
+        "link": "https://drive.google.com/file/d/1RdSxpv7Op_SrgHFGQp7i_hE4gobWmW0U/view?usp=share_link"
+      },
+      {
+        "label": "Юный турист Описание программы",
+        "link": "https://docs.google.com/document/d/1L9mGGYPfSjDOodUAyadPYwKOqo75pJbJ/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true"
+      },
+      {
+        "label": "Юный турист. Аннотация к программе",
+        "link": "https://docs.google.com/document/d/1DH2fB29cKmJ_yg2JpP0KU9qMqG-piRvT/edit?usp=share_link&ouid=117737652311635922254&rtpof=true&sd=true"
+      }
+    ],
+    "common": [
+      {
+        "label": "Расписание занятий",
+        "link": "https://drive.google.com/file/d/1sl7rGXRgYcrklc8oH7C96tjtYJhhpXgv/view?usp=share_link"
+      },
+      {
+        "label": "Календарный учебный график",
+        "link": "https://drive.google.com/file/d/10fqsxWRLEgjLSQJyj8ywHeMEXsmeU2Zz/view?usp=share_link"
+      },
+      {
+        "label": "Учебный план",
+        "link": "https://drive.google.com/file/d/10S-KKROHGlKliYVawYRsxAZH6aittnVm/view?usp=share_link"
+      },
+      {
+        "label": "Перечень программ",
+        "link": "https://drive.google.com/file/d/16BQff9tZXKXEVnUC2vjS2LeeJVctAWza/view?usp=share_link"
+      },
+      {
+        "label": "Приказ о дистанционке",
+        "link": "https://drive.google.com/file/d/1dgQG_l_k7PAZa1ZVJOawqiLdrYFDb2o1/view?usp=share_link"
+      }
+    ],
+    "achievements": [],
+    "text": ""
+  },
+  {
     "year": "2021-2022",
     "programs": [
       {
